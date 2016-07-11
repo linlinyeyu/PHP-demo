@@ -1,0 +1,1 @@
+<div style="background:url('./images/footer.png') no-repeat;width:778px;height:31px;"></div>

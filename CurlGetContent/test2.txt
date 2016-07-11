@@ -1,0 +1,1077 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="Content-Language" content="zh-CN" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>脚本之家_www.jb51.net</title>
+<link rel="shortcut icon" href="http://www.jb51.net/favicon.ico" type="image/x-icon"/>
+<link rel="icon" href="http://www.jb51.net/favicon.ico" type="image/x-icon"/>
+<meta name="robots" content="index, follow" />
+<meta name="googlebot" content="index, follow" />
+<meta name="author" content="dxy | www.jb51.net" />
+<meta name="Copyright" content="Copyright (c) 2006-2016 jb51.net" />
+<meta name="description" content="脚本之家是国内专业的网站建设资源、脚本编程学习类网站，提供asp、php、asp.net、javascript、jquery、vbscript、dos批处理、网页制作、网络编程、网站建设等编程资料。" />
+<meta name="Abstract" content="提供最新的网络编程、脚本编程、网页制作、网页设计、网页特效，为站长与网络编程从业者提供学习资料。" />
+<meta name="keywords" content="脚本,vbscript,正则表达式,jquery,dos,bat,批处理,javascript,Photoshop,HTML,div+css,ASP,PHP,ASP.NET" />
+<link rel="stylesheet" href="http://img.jb51.net/skin/blue/global.css" type="text/css" media="all" />
+<script type="text/javascript">
+(function(){var ua=navigator.userAgent.toLowerCase();var bIsIpad=ua.match(/ipad/i)=="ipad";var bIsIphoneOs=ua.match(/iphone os/i)=="iphone os";var bIsAndroid=ua.match(/android/i)=="android";var bIsWM=ua.match(/windows mobile/i)=="windows mobile";if(bIsIpad||bIsIphoneOs||bIsAndroid||bIsWM){window.location.href="http://m.jb51.net"}})();
+</script>
+<script type="text/javascript" src="http://img.jb51.net/jslib/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://img.jb51.net/js/function.js"></script>
+<meta property="qc:admins" content="4254574125051622516654" />
+</head>
+<body>
+<DIV id="topnav">
+<div class="wrap">
+<DIV id="toptext">脚 本 之 家 www.jb51.net</DIV>
+<UL id="topnavlist">
+<li><a href="http://idc.jb51.net/?jb51" target="_blank" style="color:red">脚本云</a></li>
+<li><a href="http://www.jb51.net/zt/" target="_blank">专题</a></li>
+<li><a href="http://www.jb51.net/w3school/" target="_blank">网页教程基础</a></li>
+<li><a href="http://s.jb51.net" target="_blank">服务器安全设置</a></li>
+<li><a href="http://www.jb51.net/codes/" target="_blank">源码下载</a></li>
+<li><a href="http://www.jb51.net/softs/" target="_blank">软件下载</a></li>
+<li><a href="http://www.jb51.net/softs/sj.html" target="_blank">手机软件</a></li>
+<li><a href="http://www.jb51.net/new/new_1.htm" target="_blank">最近更新</a></li>
+</UL>
+</div>
+</DIV>
+<div class="wrap">
+<div id="dxy_logo">
+<div id="logo_l"><a href="http://www.jb51.net" title="脚本之家" target="_blank"><img src="/images/logo.gif" alt="脚本之家" /></a></div>
+<div id="logo_m"></div>
+<div id="logo_r"></div>
+</div>
+<div id="nav_top">
+<ul>
+<li><a href="http://www.jb51.net/web/">网页制作</a></li>
+<li><a href="http://www.jb51.net/list/index_1.htm">网络编程</a></li>
+<li><a href="http://www.jb51.net/list/index_96.htm">脚本专栏</a></li>
+<li><a href="http://www.jb51.net/jiaoben/">脚本下载</a></li>
+<li><a href="http://www.jb51.net/list/index_104.htm">数据库</a></li>
+<li><a href="http://www.jb51.net/cms/">CMS教程</a></li>
+<li><a href="http://www.jb51.net/books/">电子书籍</a></li>
+<li><a href="http://www.jb51.net/pingmian/">平面设计</a></li>
+<li><a href="http://www.jb51.net/media/">媒体动画</a></li>
+<li><a href="http://www.jb51.net/os/">操作系统</a></li>
+<li><a href="http://www.jb51.net/yunying/">网站运营</a></li>
+<li><a href="http://www.jb51.net/hack/">网络安全</a></li>
+<li class="last"><a href="http://www.jb51.net/shouce/">在线手册</a></li>
+
+</ul>
+</div>
+<div class="blank3"></div>
+<div class="subnav">
+<ul>
+<li><a href='http://www.jb51.net/list/list_3_1.htm' title="javascript" target="_blank">javascript</a></li>
+<li><a href='http://www.jb51.net/list/list_172_1.htm' title="jquery教程" target="_blank">jquery</a></li>
+<li><a href='http://www.jb51.net/list/list_114_1.htm' title="vbscript" target="_blank">vbscript</a></li>
+<li><a href='http://www.jb51.net/list/list_6_1.htm' title="正则表达式" target="_blank">正则表达式</a></li>
+<li><a href="http://www.jb51.net/jiaoben/guanggao1.html" title="广告代码下载" target="_blank"><font color=red>广告代码</font></a></li>
+<li><a href="http://www.jb51.net/list/list_82_1.htm" title="服务器教程" target="_blank">服务器教程</a></li>
+<li><a href="http://www.jb51.net/codes/editor.html" title="网页编辑器" target="_blank">网页编辑器</a></li>
+<li><a href="http://www.jb51.net/database/" title="数据库工具" target="_blank">数据库工具</a></li>
+<li><a href="http://www.jb51.net/shouce/" title="在线手册" target="_blank">在线手册</a></li>
+<li><a href="http://www.jb51.net/hack/" title="黑客技术" target="_blank">网络安全</a></li>
+<li><a href="http://www.jb51.net/softjc/" title="软件教学" target="_blank">软件教学</a></li>
+<li><a href="http://www.jb51.net/softs/bc.html" title="编程开发软件" target="_blank">编程软件</a></li>
+<li><a href="http://www.jb51.net/zt/photoshopxz.html" title="photoshop软件下载" target="_blank">ps软件</a></li>
+<li><a href="http://www.jb51.net/dll/" title="dll下载" target="_blank">DLL下载</a></li>
+</ul>
+</div>
+<div class=blank3></div>
+<DIV class="search">
+<UL><LI class=search-hot><SPAN>特色栏目：</SPAN>
+<A href="http://www.jb51.net/list/list_114_1.htm" target='_blank'>vbscript</A> 
+<A href="http://www.jb51.net/list/list_6_1.htm" target='_blank'>正则表达式</A> 
+<A href="http://www.jb51.net/list/list_3_1.htm" target='_blank'>javascript</A>
+<A href="http://www.jb51.net/list/list_106_1.htm" target='_blank'>批处理</A>
+<A href="http://s.jb51.net">服务器软件</A> 
+<A href="http://sc.jb51.net/?txt" target="_blank" style="color:red">素材下载</A> 
+</LI><LI class=search-box>
+<div class="sall">
+<form action="http://so.jb51.net/cse/search" target="_blank">
+    <input type="hidden" name="s" value="10520733385329581432">
+    <input type="hidden" name="ie" value="gbk">
+    <input type="text" name="q" class="keyword_input">
+    <input type="submit" value="搜索" class="s_btn">
+</form></div>
+</LI></UL>
+</div>
+<div class="blank3"></div>
+<div id="tonglan1"></div>
+<div class="blank3"></div>
+<div class="dxy_main">
+<div class="dxy728"><script type="text/javascript" src="http://img.jb51.net/imgby/gg72890_2.js"></script></div>
+<div class="dxy230"><script type="text/javascript" src="http://img.jb51.net/zanzhu/gg230jb51.js"></script></div>
+</div>
+<div class="blank3"></div>
+<div class="dxy_main">
+<div class="dxy_main_l">
+<DIV class="main_l_l">
+<DIV class="dxy_list">
+<DIV class="dxy_menu">
+<DIV class="rongqi">
+<P><A href="http://www.jb51.net/new/new_1.htm" target="_blank">编程技术</a></P>
+<DIV class="clear"></DIV></DIV></DIV>
+<DIV class="list_body">
+<UL>
+<li><a href="/article/81199.htm" title="C++程序中使用Windows系统Native Wifi API的基本教程" target="_blank">C++程序中使用Windows系统Native Wifi API的基本教程</a></li>
+<li><a href="/article/81198.htm" title="图文讲解Android的ImageView类中的ScaleType属性设置" target="_blank">图文讲解Android的ImageView类中的ScaleType属性设置</a></li>
+<li><a href="/article/81197.htm" title="Android中使用Bitmap类将矩形图片转为圆形的方法" target="_blank">Android中使用Bitmap类将矩形图片转为圆形的方法</a></li>
+<li><a href="/article/81196.htm" title="Android App中实现可以双击放大和缩小图片功能的实例" target="_blank">Android App中实现可以双击放大和缩小图片功能的实例</a></li>
+<li><a href="/article/81195.htm" title="Android Studio与SVN版本控制程序的协作使用指南" target="_blank">Android Studio与SVN版本控制程序的协作使用指南</a></li>
+<li><a href="/article/81194.htm" title="简单理解JavaScript中的封装与继承特性" target="_blank">简单理解JavaScript中的封装与继承特性</a></li>
+<li><a href="/article/81193.htm" title="Python的Socket编程过程中实现UDP端口复用的实例分享" target="_blank">Python的Socket编程过程中实现UDP端口复用的实例分享</a></li>
+<li><a href="/article/81192.htm" title="JavaScript的函数式编程基础指南" target="_blank">JavaScript的函数式编程基础指南</a></li>
+<li><a href="/article/81191.htm" title="Zend Framework入门知识点小结" target="_blank">Zend Framework入门知识点小结</a></li>
+<li><a href="/article/81190.htm" title="深入解析JavaScript中函数的Currying柯里化" target="_blank">深入解析JavaScript中函数的Currying柯里化</a></li>
+<li><a href="/article/81189.htm" title="Zend Framework缓存Cache用法简单实例" target="_blank">Zend Framework缓存Cache用法简单实例</a></li>
+<li><a href="/article/81188.htm" title="使用Python编写基于DHT协议的BT资源爬虫" target="_blank">使用Python编写基于DHT协议的BT资源爬虫</a></li>
+<li><a href="/article/81187.htm" title="Zend Framework基本页面布局分析" target="_blank">Zend Framework基本页面布局分析</a></li>
+<li><a href="/article/81186.htm" title="Zend Framework连接Mysql数据库实例分析" target="_blank">Zend Framework连接Mysql数据库实例分析</a></li>
+<li><a href="/article/81185.htm" title="讲解Oracle数据库中的数据字典及相关SQL查询用法" target="_blank">讲解Oracle数据库中的数据字典及相关SQL查询用法</a></li>
+
+  </UL></DIV></DIV></DIV>
+<DIV class="main_l_r">
+<DIV class="dxy_list">
+<DIV class="dxy_menu">
+<DIV class="rongqi">
+<P><A href="http://www.jb51.net/new/new_1.htm" target="_blank">最近更新</A></P>
+<DIV class="clear"></DIV></DIV></DIV>
+<DIV class="list_body">
+<ul>
+<li><a href="/hardware/cpu/442146.html" target="_blank">i5 4590和FX 8300哪个好点 FX-8300与i5-4590区别对比</a></li><li><a href="/shouji/442095.html" target="_blank">LG G5怎么截图？LG G5截屏方法图解介绍</a></li><li><a href="/shouji/442096.html" target="_blank">LG G5怎么截图？LG G5截屏方法图解介绍</a></li><li><a href="/shouji/442094.html" target="_blank">魅族PRO6有几个版本？魅族PRO6各版本区别对比介绍</a></li><li><a href="/shouji/442093.html" target="_blank">小米5开不了机怎么办？小米5不能机的原因及图文解决方</a></li><li><a href="/shouji/442084.html" target="_blank">iPhone SE和三星Note5哪个好？iPhone SE和三星Note5详</a></li><li><a href="/shouji/442078.html" target="_blank">国行版HTC M8t(移动版)终于推送Android 6.0 版本号为6</a></li><li><a href="/softjc/442072.html" target="_blank">美播app怎么私信好友?美播app私信好友方法介绍</a></li><li><a href="/softjc/442068.html" target="_blank">猫眼电影app怎么删除看过的电影?</a></li><li><a href="/CorelDraw/442064.html" target="_blank">CAD图形转入CorelDRAW怎么填充不了颜色?</a></li><li><a href="/Illustrator/442061.html" target="_blank">在AI中直接改变画板的大小方法介绍</a></li><li><a href="/photoshop/442059.html" target="_blank">使用Photoshop对照片进行虚化处理</a></li><li><a href="/photoshop/442055.html" target="_blank">PS给图片制作局部马赛克效果</a></li><li><a href="/photoshop/442051.html" target="_blank">用ps制作一片雪花过程介绍</a></li><li><a href="/photoshop/442049.html" target="_blank">PS简单制作一个圆角的图片</a></li>
+</ul>
+</DIV></DIV>
+</DIV>
+</div>
+<div class="dxy_main_r">
+<DIV class="r_title"><H6>下载中心</H6></div>
+<div class="rightContent">
+<ul>
+<li><a href="/softs/39926.html" target="_blank">百度关键字优化精灵 V1.8.2.10 绿色免费版 </a></li><li><a href="/softs/105190.html" target="_blank">梦幻影楼软件 v6.5 中文绿色免费版</a></li><li><a href="/softs/38933.html" target="_blank">NexusImage 图像浏览器 V1.1.3992  绿色多</a></li><li><a href="/softs/104951.html" target="_blank">EditBone(好的文本编辑器) V10.10.4 英文绿</a></li><li><a href="/softs/80826.html" target="_blank">root精灵(支持中兴,华为,联想,三星,HTC,红</a></li><li><a href="/softs/39829.html" target="_blank">快手(AAuto Quicker)快速开发语言编程工具 </a></li><li><a href="/softs/142095.html" target="_blank">WiFi共享大师 V2.2.4.8 中文官方安装版</a></li><li><a href="/softs/439940.html" target="_blank">天启法宣在线学法考试助手快速版 v1.5 官方</a></li><li><a href="/softs/55437.html" target="_blank">CDBurnerXP(CD和DVD光盘刻录软件) 4.5.6.60</a></li><li><a href="/softs/36144.html" target="_blank">CDBurnerXP Pro免费的刻录CD及DVD的软件 v4</a></li><li><a href="/softs/21370.html" target="_blank">光盘刻录 CDBurnerXP Pro  v4.5.6.6064 多</a></li><li><a href="/softs/155732.html" target="_blank">铃声狗狗 for android v1.3.856 安卓版</a></li><li><a href="/softs/442141.html" target="_blank">Adobe After Effects CS3 中文绿色免费版</a></li><li><a href="/softs/155566.html" target="_blank">落网(个性化音乐推荐平台) for android v5.</a></li><li><a href="/softs/155557.html" target="_blank">Smart RAM Booster (智能内存优化) for and</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="blank3"></div>
+<div class="mainad" id="tonglan3"></div>
+<div class="blank3"></div>
+<div class="dxy_main">
+<div class="dxy_main_l">
+<div class='main_l_l'>
+<div class="dxy_list">
+<div class="dxy_menu">
+<SPAN><A href="/list/list_3_1.htm" target="_blank">更多>> </A></SPAN>
+<div class="rongqi"><p><a href="/list/list_3_1.htm">JavaScript</a><p><DIV class=clear></DIV></div></div>
+<div class="list_body">
+<ul>
+<li><span>03-19</span><a href="/article/81194.htm" title="简单理解JavaScript中的封装与继承特性" target="_blank">简单理解JavaScript中的封装与继承特性</a></li>
+<li><span>03-19</span><a href="/article/81192.htm" title="JavaScript的函数式编程基础指南" target="_blank">JavaScript的函数式编程基础指南</a></li>
+<li><span>03-19</span><a href="/article/81190.htm" title="深入解析JavaScript中函数的Currying柯里化" target="_blank">深入解析JavaScript中函数的Currying柯里</a></li>
+<li><span>03-19</span><a href="/article/81180.htm" title="Linux下为Node.js程序配置MySQL或Oracle数据库的方法" target="_blank">Linux下为Node.js程序配置MySQL或Oracle数</a></li>
+<li><span>03-18</span><a href="/article/81172.htm" title="分享js粘帖屏幕截图到web页面插件screenshot-paste" target="_blank">分享js粘帖屏幕截图到web页面插件screens</a></li>
+<li><span>03-18</span><a href="/article/81171.htm" title="JQuery用户名校验的具体实现" target="_blank">JQuery用户名校验的具体实现</a></li>
+<li><span>03-18</span><a href="/article/81170.htm" title="基于javascript实现页面加载loading效果" target="_blank">基于javascript实现页面加载loading效果</a></li>
+<li><span>03-18</span><a href="/article/81169.htm" title="JQuery fileupload插件实现文件上传功能" target="_blank">JQuery fileupload插件实现文件上传功能</a></li>
+<li><span>03-18</span><a href="/article/81168.htm" title="javascript移动开发中touch触摸事件详解" target="_blank">javascript移动开发中touch触摸事件详解</a></li>
+<li><span>03-18</span><a href="/article/81162.htm" title="使用JavaScript为Kindeditor自定义按钮增加Audio标签" target="_blank">使用JavaScript为Kindeditor自定义按钮增</a></li>
+</ul></div></div></div><div class='main_l_r'>
+<div class="dxy_list">
+<div class="dxy_menu">
+<SPAN><A href="/list/list_21_1.htm" target="_blank">更多>> </A></SPAN>
+<div class="rongqi"><p><a href="/list/list_21_1.htm">ASP.NET</a><p><DIV class=clear></DIV></div></div>
+<div class="list_body">
+<ul>
+<li><span>03-17</span><a href="/article/81100.htm" title="全面剖析.Net环境下的缓存技术" target="_blank">全面剖析.Net环境下的缓存技术</a></li>
+<li><span>03-17</span><a href="/article/81099.htm" title="ADO.NET通用数据库访问类" target="_blank">ADO.NET通用数据库访问类</a></li>
+<li><span>03-17</span><a href="/article/81081.htm" title="ASP.NET MVC异常处理模块详解" target="_blank">ASP.NET MVC异常处理模块详解</a></li>
+<li><span>03-15</span><a href="/article/80974.htm" title="ASP.NET/C#中如何调用动态链接库DLL" target="_blank">ASP.NET/C#中如何调用动态链接库DLL</a></li>
+<li><span>03-08</span><a href="/article/80635.htm" title="asp.net实现调用存储过程并带返回值的方法" target="_blank">asp.net实现调用存储过程并带返回值的方法</a></li>
+<li><span>03-08</span><a href="/article/80634.htm" title="asp.net实现调用带有输出参数的存储过程实例" target="_blank">asp.net实现调用带有输出参数的存储过程实</a></li>
+<li><span>03-07</span><a href="/article/80596.htm" title="asp.net采集页面上所有图像图片资源的具体方法" target="_blank">asp.net采集页面上所有图像图片资源的具体</a></li>
+<li><span>03-07</span><a href="/article/80594.htm" title="ASP.NET多文件上传控件Uploadify的使用方法" target="_blank">ASP.NET多文件上传控件Uploadify的使用方</a></li>
+<li><span>03-07</span><a href="/article/80592.htm" title="ASP.NET文件上传控件Uploadify的使用方法" target="_blank">ASP.NET文件上传控件Uploadify的使用方法</a></li>
+<li><span>03-07</span><a href="/article/80560.htm" title="Gridview利用DataFormatString属性设置数据格式的方法" target="_blank">Gridview利用DataFormatString属性设置数</a></li>
+</ul></div></div></div><DIV class=blank3></DIV><div class='main_l_l'>
+<div class="dxy_list">
+<div class="dxy_menu">
+<SPAN><A href="/list/list_15_1.htm" target="_blank">更多>> </A></SPAN>
+<div class="rongqi"><p><a href="/list/list_15_1.htm">PHP编程</a><p><DIV class=clear></DIV></div></div>
+<div class="list_body">
+<ul>
+<li><span>03-19</span><a href="/article/81191.htm" title="Zend Framework入门知识点小结" target="_blank">Zend Framework入门知识点小结</a></li>
+<li><span>03-19</span><a href="/article/81189.htm" title="Zend Framework缓存Cache用法简单实例" target="_blank">Zend Framework缓存Cache用法简单实例</a></li>
+<li><span>03-19</span><a href="/article/81187.htm" title="Zend Framework基本页面布局分析" target="_blank">Zend Framework基本页面布局分析</a></li>
+<li><span>03-19</span><a href="/article/81186.htm" title="Zend Framework连接Mysql数据库实例分析" target="_blank">Zend Framework连接Mysql数据库实例分析</a></li>
+<li><span>03-19</span><a href="/article/81184.htm" title="Zend Framework+smarty用法实例详解" target="_blank">Zend Framework+smarty用法实例详解</a></li>
+<li><span>03-19</span><a href="/article/81182.htm" title="ThinkPHP使用Smarty第三方插件方法小结" target="_blank">ThinkPHP使用Smarty第三方插件方法小结</a></li>
+<li><span>03-19</span><a href="/article/81176.htm" title="smarty学习笔记之常见代码段用法总结" target="_blank">smarty学习笔记之常见代码段用法总结</a></li>
+<li><span>03-19</span><a href="/article/81174.htm" title="FleaPHP框架数据库查询条件($conditions)写法总结" target="_blank">FleaPHP框架数据库查询条件($conditions)</a></li>
+<li><span>03-18</span><a href="/article/81166.htm" title="PHP指定截取字符串中的中英文或数字字符的实例分享" target="_blank">PHP指定截取字符串中的中英文或数字字符的</a></li>
+<li><span>03-18</span><a href="/article/81165.htm" title="详解PHP的Yii框架中组件行为的属性注入和方法注入" target="_blank">详解PHP的Yii框架中组件行为的属性注入和</a></li>
+</ul></div></div></div><div class='main_l_r'>
+<div class="dxy_list">
+<div class="dxy_menu">
+<SPAN><A href="/list/list_6_1.htm" target="_blank">更多>> </A></SPAN>
+<div class="rongqi"><p><a href="/list/list_6_1.htm">正则表达式</a><p><DIV class=clear></DIV></div></div>
+<div class="list_body">
+<ul>
+<li><span>03-16</span><a href="/article/81023.htm" title="正则表达式如何在PHP里灵活的应用" target="_blank">正则表达式如何在PHP里灵活的应用</a></li>
+<li><span>03-11</span><a href="/article/80779.htm" title="php正则表达式中贪婪与非贪婪介绍" target="_blank">php正则表达式中贪婪与非贪婪介绍</a></li>
+<li><span>03-09</span><a href="/article/80690.htm" title="IP地址正则表达式匹配方法" target="_blank">IP地址正则表达式匹配方法</a></li>
+<li><span>03-09</span><a href="/article/80669.htm" title="AS3 js正则表达式 反向引用(backreference)" target="_blank">AS3 js正则表达式 反向引用(backreferenc</a></li>
+<li><span>03-09</span><a href="/article/80660.htm" title="详解正则表达式表单验证实例" target="_blank">详解正则表达式表单验证实例</a></li>
+<li><span>03-07</span><a href="/article/80591.htm" title="正则表达式匹配用户密码" target="_blank">正则表达式匹配用户密码</a></li>
+<li><span>03-02</span><a href="/article/80346.htm" title="55分钟学会正则表达式" target="_blank">55分钟学会正则表达式</a></li>
+<li><span>03-01</span><a href="/article/80301.htm" title="去掉字符串前后所有空格的正则表达式" target="_blank">去掉字符串前后所有空格的正则表达式</a></li>
+<li><span>02-29</span><a href="/article/80182.htm" title="正值表达式匹配html标签的属性值" target="_blank">正值表达式匹配html标签的属性值</a></li>
+<li><span>02-26</span><a href="/article/80072.htm" title="ExtJS4的文本框(textField)使用正则表达式进行验证(Regex)的方法" target="_blank">ExtJS4的文本框(textField)使用正则表达式</a></li>
+</ul></div></div></div><DIV class=blank3></DIV>
+</div>
+<div class="dxy_main_r">
+<DIV class="r_title"><H6>本 站 公 告</H6></div>
+<div class="rightContent">
+<ul><li><a href=/article/73947.htm title="脚本之家诚征下载服务器赞助了" target="_blank">脚本之家诚征下载服务器赞助了</a></li>
+<li><a href=/article/72969.htm title="关于近期脚本之家网站被360报木马网站的声明" target="_blank">关于近期脚本之家网站被360报木马网站的声</a></li>
+<li><a href=/article/52310.htm title="脚本之家无法访问或访问较慢临时解决方案" target="_blank">脚本之家无法访问或访问较慢临时解决方案</a></li>
+<li><a href=/article/42273.htm title="脚本之家学习交流群一览" target="_blank">脚本之家学习交流群一览</a></li>
+<li><a href=/article/37618.htm title="脚本之家长期接受服务器赞助" target="_blank">脚本之家长期接受服务器赞助</a></li>
+</ul>
+</div>
+<div class="blank3"></div>
+<DIV class="r_title"><H6><a href="http://www.jb51.net/zt/" target="_blank">专 题 中 心</a></H6></div>
+<div class="rightContent">
+<ul>
+<li><a href="/zt/MacDrive.html" target="_blank">MacDrive下载_MacDrive软件下载_MacDrive工</a></li><li><a href="/zt/huaweiwangpan.html" target="_blank">华为网盘下载_华为网盘官方下载_华为网盘使</a></li><li><a href="/zt/evernote.html" target="_blank">印象笔记下载_印象笔记(Evernote)官方下载_</a></li><li><a href="/zt/jiudianglxt.html" target="_blank">酒店管理系统下载_酒店管理软件免费版_酒店</a></li><li><a href="/zt/teamviewer.html" target="_blank">TeamViewer破解版下载_TeamViewer官网下载_</a></li><li><a href="/zt/solidworks.html" target="_blank">solidworks下载_solidworks破解版下载_soli</a></li><li><a href="/zt/foobar2000.html" target="_blank">foobar2000下载_foobar2000中文版下载_foob</a></li><li><a href="/zt/shipinjjrj.html" target="_blank">视频剪辑软件下载_视频剪辑软件哪个好_视频</a></li><li><a href="/zt/CAIJIQI.html" target="_blank">采集器下载_无人值守采集器下载_采集器使用</a></li>
+<li><a href="http://office.jb51.net/powerpoint/5323.html" target="_blank">在PPT中如何快速实现图形的相对复制有哪些方法</a></li>
+<li><a href="http://office.jb51.net/excel/5322.html" target="_blank">如何筛选前10名的数据并保持原有数据的顺序</a></li>
+<li><a href="http://office.jb51.net/word/5321.html" target="_blank">在文档表格中如何制作斜线表头史上最简单的两个步骤</a></li>
+
+</ul>
+</div>
+</DIV>
+</div><!--end main-->
+<div class="blank3"></div>
+<div class="mainad" id="tonglan6"></div>
+<div class="blank3"></div>
+<!--main2-->
+<div class="dxy_main">
+<div class="dxy_main_l">
+<div class="main_l_l">
+<div class="dxy_list">
+<div class="dxy_menu">
+<SPAN><A href="http://www.jb51.net/list/index_96.htm" target="_blank">更多>> </A></SPAN>
+<div class="rongqi"><p><a href="http://www.jb51.net/list/index_96.htm" target="_blank">脚本专栏</a></p><DIV class=clear></DIV></div></div>
+<div class="list_body">
+<ul>
+<li><span>03-19</span><a href="/article/81193.htm" title="Python的Socket编程过程中实现UDP端口复用的实例分享" target="_blank">Python的Socket编程过程中实现UDP端口复用</a></li>
+<li><span>03-19</span><a href="/article/81188.htm" title="使用Python编写基于DHT协议的BT资源爬虫" target="_blank">使用Python编写基于DHT协议的BT资源爬虫</a></li>
+<li><span>03-18</span><a href="/article/81153.htm" title="浅析Python基础-流程控制" target="_blank">浅析Python基础-流程控制</a></li>
+<li><span>03-18</span><a href="/article/81151.htm" title="浅析Python编写函数装饰器" target="_blank">浅析Python编写函数装饰器</a></li>
+<li><span>03-18</span><a href="/article/81149.htm" title="python正则表达式之作业计算器" target="_blank">python正则表达式之作业计算器</a></li>
+<li><span>03-18</span><a href="/article/81148.htm" title="基于python yield机制的异步操作同步化编程模型" target="_blank">基于python yield机制的异步操作同步化编</a></li>
+<li><span>03-18</span><a href="/article/81145.htm" title="理解Python中的With语句" target="_blank">理解Python中的With语句</a></li>
+<li><span>03-18</span><a href="/article/81127.htm" title="简述Python中的进程、线程、协程" target="_blank">简述Python中的进程、线程、协程</a></li>
+<li><span>03-17</span><a href="/article/81075.htm" title="Python实现计算最小编辑距离" target="_blank">Python实现计算最小编辑距离</a></li>
+<li><span>03-17</span><a href="/article/81070.htm" title="Python引用模块和查找模块路径" target="_blank">Python引用模块和查找模块路径</a></li>
+</ul>
+</div></div></div>
+<div class="main_l_r">
+<div class="dxy_list">
+<div class="dxy_menu">
+<SPAN><A href="http://www.jb51.net/jiaoben/" target="_blank">更多>> </A></SPAN>
+<div class="rongqi"><p><a href="http://www.jb51.net/jiaoben/" target="_blank">脚本下载</a></p><DIV class=clear></DIV></div></div>
+<div class="list_body">
+<ul>
+<li><span>03-19</span><a href="/jiaoben/442105.html" title="html5+css3实现的黑色圆形时钟效果源码" target="_blank">html5+css3实现的黑色圆形时钟效果源码</a></li><li><span>03-18</span><a href="/jiaoben/441954.html" title="HTML5 canvas实现的全屏酷炫星空背景动画特" target="_blank">HTML5 canvas实现的全屏酷炫星空背景动画特</a></li><li><span>03-18</span><a href="/jiaoben/441817.html" title="CSS3实现固定网页底部半圆(弧形)展开导航特" target="_blank">CSS3实现固定网页底部半圆(弧形)展开导航特</a></li><li><span>03-18</span><a href="/jiaoben/441803.html" title="jQuery实现鼠标滑过图片出现遮罩层特效源码" target="_blank">jQuery实现鼠标滑过图片出现遮罩层特效源码</a></li><li><span>03-18</span><a href="/jiaoben/441799.html" title="jQuery同宽网格瀑布流插件特效源码" target="_blank">jQuery同宽网格瀑布流插件特效源码</a></li><li><span>03-17</span><a href="/jiaoben/441565.html" title="HTML5+CSS3实现的3D导航特效源码" target="_blank">HTML5+CSS3实现的3D导航特效源码</a></li><li><span>03-17</span><a href="/jiaoben/441516.html" title="纯CSS3简单实用的tooltips工具提示特效源码" target="_blank">纯CSS3简单实用的tooltips工具提示特效源码</a></li><li><span>03-17</span><a href="/jiaoben/441493.html" title="纯css3绘制的哆啦a梦机器猫头像效果源码" target="_blank">纯css3绘制的哆啦a梦机器猫头像效果源码</a></li><li><span>03-17</span><a href="/jiaoben/441407.html" title="jQuery+hover 3D插件实现鼠标滑过图片显示3" target="_blank">jQuery+hover 3D插件实现鼠标滑过图片显示3</a></li><li><span>03-17</span><a href="/jiaoben/441393.html" title="HTML5实现个性ppt文字幻灯片演示特效源码" target="_blank">HTML5实现个性ppt文字幻灯片演示特效源码</a></li>
+</ul></div></div></div>
+<div class="blank3"></div>
+<div class="main_l_l">
+<div class="dxy_list">
+<div class="dxy_menu">
+<SPAN><A href="http://www.jb51.net/softjc/" target="_blank">更多>> </A></SPAN>
+<div class="rongqi"><p><a href="http://www.jb51.net/softjc/" target="_blank">软件教程</a></p><DIV class=clear></DIV></div></div>
+<div class="list_body">
+<ul>
+<li><span>03-19</span><a href="/softjc/442072.html" title="美播app怎么私信好友?美播app私信好友方法" target="_blank">美播app怎么私信好友?美播app私信好友方法</a></li><li><span>03-19</span><a href="/softjc/442068.html" title="猫眼电影app怎么删除看过的电影?" target="_blank">猫眼电影app怎么删除看过的电影?</a></li><li><span>03-19</span><a href="/office/excel/442045.html" title="用excel怎么检查两个字符串是否相同?" target="_blank">用excel怎么检查两个字符串是否相同?</a></li><li><span>03-19</span><a href="/os/win10/442031.html" title="微软设计两款Win10操作中心通知动态展示效" target="_blank">微软设计两款Win10操作中心通知动态展示效</a></li><li><span>03-19</span><a href="/os/win10/442026.html" title="微软官方确认:Win10移动版正式版升级暂时仅" target="_blank">微软官方确认:Win10移动版正式版升级暂时仅</a></li><li><span>03-19</span><a href="/os/win10/441996.html" title="Win10系统安装Edge浏览器扩展图文教程及视" target="_blank">Win10系统安装Edge浏览器扩展图文教程及视</a></li><li><span>03-18</span><a href="/softjc/441981.html" title="全民K歌怎么自己发起合唱?" target="_blank">全民K歌怎么自己发起合唱?</a></li><li><span>03-18</span><a href="/os/Windows8/441973.html" title="win8.1系统连接手机热点后出现蓝屏重启的解" target="_blank">win8.1系统连接手机热点后出现蓝屏重启的解</a></li><li><span>03-18</span><a href="/os/Windows8/441963.html" title="Win8.1系统弹出Windows更新窗口提示“Windo" target="_blank">Win8.1系统弹出Windows更新窗口提示“Windo</a></li><li><span>03-18</span><a href="/os/win10/441961.html" title="Win10系统怎么校准显示器颜色？win10校准显" target="_blank">Win10系统怎么校准显示器颜色？win10校准显</a></li>
+</ul></div></div></div>
+<div class="main_l_r">
+<div class="dxy_list">
+<div class="dxy_menu">
+<SPAN><A href="http://www.jb51.net/gonglue/" target="_blank">更多>> </A></SPAN>
+<div class="rongqi"><p><a href="http://www.jb51.net/gonglue/" target="_blank">游戏攻略</a></p><DIV class=clear></DIV></div></div>
+<div class="list_body">
+<ul>
+<li><span>03-19</span><a href="/gonglue/442158.html" title="恐怖黎明3月最新固定炸箱子地点分享" target="_blank">恐怖黎明3月最新固定炸箱子地点分享</a></li><li><span>03-19</span><a href="/gonglue/442156.html" title="天天酷跑3.19圣斗狮加入黄金奖池拿好礼_强" target="_blank">天天酷跑3.19圣斗狮加入黄金奖池拿好礼_强</a></li><li><span>03-19</span><a href="/gonglue/442157.html" title="恐怖黎明召唤流开荒玩法详解" target="_blank">恐怖黎明召唤流开荒玩法详解</a></li><li><span>03-19</span><a href="/gonglue/442155.html" title="天天酷跑3月-4月召回小伙伴免费送吸血伯爵" target="_blank">天天酷跑3月-4月召回小伙伴免费送吸血伯爵</a></li><li><span>03-19</span><a href="/gonglue/442154.html" title="方舟生存进化空调作用介绍" target="_blank">方舟生存进化空调作用介绍</a></li><li><span>03-19</span><a href="/gonglue/442153.html" title="天天酷跑玫瑰兑换什么最好_天天酷跑召回好" target="_blank">天天酷跑玫瑰兑换什么最好_天天酷跑召回好</a></li><li><span>03-19</span><a href="/gonglue/442152.html" title="LOL 6.5索拉卡晋升为万能奶妈 可中可上可辅" target="_blank">LOL 6.5索拉卡晋升为万能奶妈 可中可上可辅</a></li><li><span>03-19</span><a href="/gonglue/442151.html" title="全境封锁被卡死在栅栏里怎么办_卡死在栅栏" target="_blank">全境封锁被卡死在栅栏里怎么办_卡死在栅栏</a></li><li><span>03-19</span><a href="/gonglue/442150.html" title="全境封锁登录uplay账号被封禁解决方案" target="_blank">全境封锁登录uplay账号被封禁解决方案</a></li><li><span>03-19</span><a href="/gonglue/442149.html" title="LOL 6.5上单男枪怎么玩 上单男枪新打法攻略" target="_blank">LOL 6.5上单男枪怎么玩 上单男枪新打法攻略</a></li>
+</ul></div></div></div>
+<div class="blank3"></div>
+<div class="main_l_l">
+<div class="dxy_list">
+<div class="dxy_menu">
+<SPAN><A href="http://www.jb51.net/yunying/">更多>> </A></SPAN>
+<div class="rongqi"><p><a href="http://www.jb51.net/yunying/" target="_blank">网站运营</a></p><DIV class=clear></DIV></div></div>
+<div class="list_body">
+<ul>
+<li><span>03-18</span><a href="/yunying/441980.html" title="2016年怎么做优化？百度对移动站点友好度评" target="_blank">2016年怎么做优化？百度对移动站点友好度评</a></li><li><span>03-18</span><a href="/yunying/441977.html" title="网站没排名还能日赚200吗?亲身经历讲述赚钱" target="_blank">网站没排名还能日赚200吗?亲身经历讲述赚钱</a></li><li><span>03-18</span><a href="/yunying/441974.html" title="优化企业网站需要留意哪些问题?网站建设10" target="_blank">优化企业网站需要留意哪些问题?网站建设10</a></li><li><span>03-18</span><a href="/yunying/441975.html" title="搜索引擎是如何判别垃圾内容？打造符合搜索" target="_blank">搜索引擎是如何判别垃圾内容？打造符合搜索</a></li><li><span>03-18</span><a href="/yunying/441967.html" title="seo干货分享 一个影响力大、实战且成功的电" target="_blank">seo干货分享 一个影响力大、实战且成功的电</a></li><li><span>03-18</span><a href="/yunying/441964.html" title="网站优化的时候怎么分析baidu热力点击图?" target="_blank">网站优化的时候怎么分析baidu热力点击图?</a></li><li><span>03-18</span><a href="/yunying/441730.html" title="详解BlueHost主机空间上绑定域名的方法" target="_blank">详解BlueHost主机空间上绑定域名的方法</a></li><li><span>03-18</span><a href="/yunying/441714.html" title="BlueHost服务器主机购买及安装WordPress的" target="_blank">BlueHost服务器主机购买及安装WordPress的</a></li><li><span>03-18</span><a href="/yunying/438511.html" title="DigitalOcean主机从购买到配置的一站式简明" target="_blank">DigitalOcean主机从购买到配置的一站式简明</a></li><li><span>03-17</span><a href="/yunying/441577.html" title="中小型旅游网站怎么做好用户口碑?" target="_blank">中小型旅游网站怎么做好用户口碑?</a></li><li><span>03-17</span><a href="/yunying/441571.html" title="企业SEO问答：电商网站内容和其他网站出现" target="_blank">企业SEO问答：电商网站内容和其他网站出现</a></li>
+</ul></div></div></div>
+<div class="main_l_r">
+<div class="dxy_list">
+<div class="dxy_menu">
+<SPAN><A href="http://www.jb51.net/web/" target="_blank">更多>> </A></SPAN>
+<div class="rongqi"><p><a href="http://www.jb51.net/web/" target="_blank">网页制作</a></p><DIV class=clear></DIV></div></div>
+<div class="list_body">
+<ul>
+<li><span>03-18</span><a href="/html5/441754.html" title="HTML5仿手机微信聊天界面" target="_blank">HTML5仿手机微信聊天界面</a></li><li><span>03-18</span><a href="/html5/441695.html" title="HTML5 画布canvas使用方法" target="_blank">HTML5 画布canvas使用方法</a></li><li><span>03-17</span><a href="/css/441563.html" title="html+css 清除浮动的相关技巧心得" target="_blank">html+css 清除浮动的相关技巧心得</a></li><li><span>03-17</span><a href="/html5/441354.html" title="HTML5使用Audio标签实现歌词同步的效果 " target="_blank">HTML5使用Audio标签实现歌词同步的效果 </a></li><li><span>03-17</span><a href="/html5/441330.html" title="HTML5 Canvas的常用线条属性值总结" target="_blank">HTML5 Canvas的常用线条属性值总结</a></li><li><span>03-17</span><a href="/html5/441310.html" title="HTML5 Canvas基本线条绘制的实例教程" target="_blank">HTML5 Canvas基本线条绘制的实例教程</a></li><li><span>03-17</span><a href="/html5/441280.html" title="HTML5 Canvas入门学习教程" target="_blank">HTML5 Canvas入门学习教程</a></li><li><span>03-17</span><a href="/css/441207.html" title="你应该知道的3个CSS技巧" target="_blank">你应该知道的3个CSS技巧</a></li><li><span>03-17</span><a href="/css/441185.html" title="css使用flexbox布局容器内多元素水平居中" target="_blank">css使用flexbox布局容器内多元素水平居中</a></li><li><span>03-17</span><a href="/html5/441114.html" title="HTML5 3D衣服摇摆动画特效" target="_blank">HTML5 3D衣服摇摆动画特效</a></li><li><span>03-16</span><a href="/css/440972.html" title="在网页标题栏上和收藏夹显示网站logo的实现" target="_blank">在网页标题栏上和收藏夹显示网站logo的实现</a></li>
+</ul></div></div></div>
+</div>
+<div class="dxy_main_r">
+<DIV class="r_title"><H6><a href="http://www.jb51.net/shouce/" target="_blank">在 线 手 册</a></H6></div>
+<div class="rightContent">
+<ul>
+<li><a href="http://shouce.jb51.net/perl5/" target="_blank">Perl 5 教程 by flamephoenix</a></li><li><a href="http://www.jb51.net/shouce/html/html.htm" target="_blank">HTML 30分钟入门教程</a></li><li><a href="http://www.jb51.net/tools/regexsc.htm" target="_blank">正则表达式速查表</a></li><li><a href="http://shouce.jb51.net/java/jdk1.7en" target="_blank">jdk 1.7 参考手册官方英文版</a></li><li><a href="http://shouce.jb51.net/java/jdk1.6/" target="_blank">JDK 1.6 API java 中文参考手册</a></li><li><a href="http://shouce.jb51.net/java/jdk1.5/" target="_blank">JDK 1.5 API java 中文参考手册</a></li><li><a href="http://shouce.jb51.net/actionscript3.0/" target="_blank">ActionScript 3.0 语言和组件参考 中文版</a></li><li><a href="http://shouce.jb51.net/hibernate/" target="_blank">HIBERNATE - 符合Java习惯的关系数据库持久</a></li><li><a href="http://shouce.jb51.net/spring/" target="_blank">Spring Framework 开发参考手册</a></li><li><a href="http://shouce.jb51.net/thinkinjava/" target="_blank">Thinking in Java 中文手册</a></li>
+</ul>
+</div>
+<div class="blank3"></div>
+<div class="box">
+<DIV class="r_title tab">
+<H3>常用工具</H3>
+<UL class="tabitem">
+  <LI><A class=current id=tool1 onmouseover=javascript:doClick_down(this) 
+  href="http://www.jb51.net/softs/bc.html" target=_blank>开发测试</A> </LI>
+  <LI><A id=tool2 onmouseover=javascript:doClick_down(this) 
+  href="http://www.jb51.net/shouce/" target=_blank>在线手册</A> </LI>
+  <LI><A id=tool3 onmouseover=javascript:doClick_down(this) 
+  href="http://tools.jb51.net" target=_blank>在线工具</A> </LI>
+  <LI><A id=tool4 onmouseover=javascript:doClick_down(this) 
+  href="http://s.jb51.net" target=_blank>其它</A> </LI>
+</UL></DIV>
+<div class="rightContent">
+<ul id="d_con1">
+<li><a href="http://www.jb51.net/softs/28133.html" target="_blank">asp服务器 简易测试asp的工具</a></li>
+<li><a href="http://www.jb51.net/softs/12868.html" target="_blank">PHP环境套件 PHPnow 简体中文免费版 V1.5.5.1</a></li>
+<li><a href="http://www.jb51.net/softs/17467.html" target="_blank">IIS6 php5 环境集成安装包</a></li>
+<li><a href="http://www.jb51.net/softs/2253.html" target="_blank">VisualVBS vbscript开发工具</a></li>
+<li><a href="http://www.jb51.net/softs/25914.html" target="_blank">BatProject 批处理编写软件中文绿色版</a></li>
+<li><a href="http://www.jb51.net/softs/20112.html" target="_blank">Aptana Javascript 编辑开发工具</a></li>
+<li><a href="http://www.jb51.net/softs/26128.html" target="_blank">TopStyle  CSS编写工具带预览功能</a></li>
+<li><a href="http://www.jb51.net/softs/10756.html" target="_blank"> PHP Expert Editor php编写工具</a></li>
+<li><a href="http://www.jb51.net/softs/bc.html" target="_blank"> 更多编程开发工具</a></li>
+</ul>
+<UL class="tool_box disable" id="d_con2">
+<li><a href="http://www.jb51.net/tools/zhengze.html" target="_blank" target="_blank">正则表达式30分钟入门教程</a></li>
+<li><a href="http://www.jb51.net/article/18526.htm" target="_blank" target="_blank">正则表达式 基础资料</a></li>
+<li><a href="http://www.jb51.net/w3school/js/index.asp.htm" target="_blank">javascript 在线参考手册</a></li>
+<li><a href="http://www.jb51.net/shouce/vbscript/" target="_blank">vbscript微软官方参考手册</a></li>
+<li><a href="http://www.jb51.net/shouce/jquery/jQuery_study.html" target="_blank">jQuery入门指南教程</a></li>
+<li><a href="http://www.jb51.net/w3school/asp/index.asp.htm" target="_blank">asp 学习在线手册</a></li>
+<li><a href="http://www.jb51.net/shouce/php5/index.htm" title="photoshop教程" target="_blank">php5最新中文参考手册</a></li>
+<li><a href="http://shouce.jb51.net/mysql/" title="mysql 5.1 参考手册" target="_blank">mysql</a></li>
+<li><a href="http://www.jb51.net/w3school/sql/index.asp.htm" title="sql数据库学习" target="_blank" class="noborder">sql数据库学习</a></li>
+</UL>
+<UL class="tool_box disable" id="d_con3">
+<li><a href="http://www.jb51.net/tools/zhuanhuan.htm" target="_blank">在线网页常用编码转换工具包</a></li>
+<li><a href="http://www.jb51.net/tools/cssyasuo.shtml" target="_blank">css 在线压缩工具</a></li>
+<li><a href="http://www.jb51.net/csstidy/css_optimiser.php?lang=zh" target="_blank">CSS整形与最佳化工具[压缩] </a></li>
+<li><a href="http://www.jb51.net/tools/jsmin/index.htm" target="_blank">JS Minifier js压缩</a></li>
+<li><a href="http://www.jb51.net/tools/packer.htm" target="_blank">packer_至强的javascript在线加密工具</a></li>
+<li><a href="http://www.jb51.net/tools/bihe/index.htm" target="_blank">XHTML 代码嵌套查看工具[标签闭合]</a></li>
+<li><a href="http://www.jb51.net/tools/jinzhi.htm" target="_blank">脚本之家 在线进制转换 可以实现各类进制间</a></li>
+<li><a href="http://www.jb51.net/tools/js_Debug.htm" target="_blank">在线JS脚本校验器检测js错误 </a></li>
+<li><a href="http://www.jb51.net/tools/htmlto.htm" target="_blank">将html转换为php,javascript和asp的在线工具</a></li>
+</UL>
+<UL class="tool_box disable" id="d_con4">
+<li><a href="http://www.jb51.net/adtest/index.htm" target="_blank">常用广告代码</a></li>
+<li><a href="http://www.jb51.net/tools/html-js.htm" target="_blank">HTML/JS互相转换工具-IE7兼容版</a></li>
+<li><a href="http://tools.jb51.net/Dreamweaver/" target="_blank">Dreamweaver在线编辑</a></li>
+<li><a href="http://www.jb51.net/codes/list37_1.html" target="_blank">网页编辑器</a></li>
+<li><a href="http://www.jb51.net/tools/qq.html" target="_blank">QQ在线强制聊天工具 加强修正版</a></li>
+<li><a href="http://www.jb51.net/tools/xunleijm.htm" target="_blank">迅雷 快车专用链接加密解密js代码</a></li>
+<li><a href="http://www.jb51.net/tools/fanjianzhi.htm" target="_blank">在线繁简体字转换</a></li> 
+<li><a href="/shouce/html/" target="_blank">html中文完全手册</a></li>
+<li><a href="http://www.jb51.net/softs/911.html" target="_blank">asp encode加解密</a></li>
+</UL>
+</div></div>
+<div class="blank3"></div>
+<DIV class="r_title"><H6>常用软件</H6></div>
+<div class="cy_box">
+<ul>
+               <li>
+		<h4>脚本相关</h4>
+		<a target="_blank" href="http://www.jb51.net/jiaoben/58.html">jquery</a> | 
+		<a target="_blank" href="http://www.jb51.net/jiaoben/291.html">prototype</a> | 
+		<a target="_blank" href="http://www.jb51.net/jiaoben/298.html">MooTools</a> | 
+		<a target="_blank" href="http://www.jb51.net/jiaoben/9948.html">EXTJS</a> | 
+		<a target="_blank" href="http://www.jb51.net/jiaoben/20108.html">dojo</a> | 
+		<a target="_blank" href="http://www.jb51.net/jiaoben/19615.html">swfobject</a> | 
+		<a target="_blank" href="http://www.jb51.net/jiaoben/294.html">Yui</a> | 
+		<a target="_blank" href="http://www.jb51.net/softs/20112.html" title="推荐的一款javascript开发工具">Aptana</a> | 
+		<a target="_blank" href="http://www.jb51.net/softs/2253.html" title="非常不错的vbscript开发学习软件">vbscript</a>
+               </li>
+               <li>
+		<h4>参考手册：</h4>
+        <a target="_blank" href="http://www.jb51.net/shouce/css20/">CSS</a> | 
+        <a target="_blank" href="http://www.jb51.net/shouce/css2/">CSS2.0</a> |
+		<a target="_blank" href="http://www.jb51.net/shouce/asp/">asp</a> | 
+		<a target="_blank" href="http://www.jb51.net/shouce/php5/index.htm">php</a> | 
+		<a target="_blank" href="http://www.jb51.net/shouce/vbscript/">vbscript</a> | 
+		<a target="_blank" href="http://www.jb51.net/shouce/jquery/">jquery</a> | 
+  		<a target="_blank" href="http://www.jb51.net/shouce/jquery/">vbscript</a> | 
+		<a target="_blank" href="http://www.jb51.net/shouce/cssfilter/">样式表滤镜</a> | 
+  <a target="_blank" href="http://www.jb51.net/shouce/script56/">脚本学习手册</a> | 
+		<a target="_blank" href="http://www.jb51.net/shouce/dos/">dos</a> | 
+		<a target="_blank" href="http://www.jb51.net/shouce/behavior/">dhtml</a> | 
+		<a target="_blank" href="http://www.jb51.net/shouce/xmlhttp/">xmlhttp</a>               </li>
+               <li>
+		<h4>常用源码： </h4>
+  <a target="_blank" href="http://www.jb51.net/codes/9736.html">DEDECMS</a> | 
+  <a target="_blank" href="http://www.jb51.net/codes/9741.html">帝国</a> | 
+		<a target="_blank" href="http://www.jb51.net/codes/1991.html">PJBLOG</a> | 
+		<a target="_blank" href="http://www.jb51.net/codes/9523.html">Z-BLOG</a> | 
+		<a target="_blank" href="http://www.jb51.net/codes/9735.html">OBLOG</a> | 
+		<a target="_blank" href="http://www.jb51.net/codes/8892.html">WP</a> | 
+		<a target="_blank" href="http://www.jb51.net/codes/9741.html">帝国</a> | 
+		<a target="_blank" href="http://www.jb51.net/codes/8895.html">phpwind</a> | 
+<a target="_blank" href="http://www.jb51.net/codes/15565.html">discuz(php论坛)</a>
+               </li>
+               <li>
+		<h4>工具下载：</h4>
+		<a target="_blank" href="http://www.jb51.net/softs/9733.html">LeapFTP</a> | 
+		<a target="_blank" href="http://www.jb51.net/softs/9543.html">FlashFXP</a> | 
+		<a target="_blank" href="http://www.jb51.net/softs/8611.html">迅雷去广告</a> | 
+		<a target="_blank" href="http://www.jb51.net/softs/2195.html">Serv-U</a> | 
+		<a target="_blank" href="http://www.jb51.net/softs/915.html">3389远程桌面</a> | 
+		<a target="_blank" href="http://www.jb51.net/softs/8530.html">Dreamweaver</a>| 
+		<a target="_blank" href="http://www.jb51.net/softs/2276.html">editplus</a>| 
+		<a target="_blank" href="http://www.jb51.net/softs/8690.html">pdf阅读</a>
+               </li>
+            </ul>
+</div>
+</DIV>
+</div><!--end main-->
+<!--main2 end-->
+<!--main3-->
+<!--end main-->
+<!--main3 end-->
+<div class="blank3"></div>
+<div class="sc">
+<div class="sc_t"><span><a href="http://sc.jb51.net" target="_blank">更多素材</a>&nbsp;&nbsp;</span><h2>素材中国</h2></div>
+<div class="sc_img">
+<ul>
+<li>
+  <a href="http://sc.jb51.net/Web/" title="网页设计素材" target="_blank"><img src="http://img.jb51.net/images/wysc.jpg" width="143" height="166" alt="网页设计素材" /></a>
+  <h4><a href="http://sc.jb51.net/Web/gif/index.html" target="_blank">PNG图标</a> <a href="http://sc.jb51.net/Web/PNG/index.html" target="_blank">png小图标</a></h4></li>
+<li><a href="http://sc.jb51.net/Design/" title="设计元素" target="_blank"><img src="http://img.jb51.net/images/sjsc.jpg" width="143" height="166" alt="设计元素" /></a>
+  <h4><a href="http://sc.jb51.net/Design/Ad/index.html" title="广告设计" target="_blank">广告设计</a> <a href="http://sc.jb51.net/Design/chezhanguanggaotupian/index.html" title="车展广告" target="_blank">车展广告</a></h4></li>
+<li>
+  <a href="http://sc.jb51.net/Design/hcsj/index.html" title="画册模板素材" target="_blank"><img src="http://img.jb51.net/images/huace.jpg" width="143" height="166" alt="画册模板" /></a>
+  <h4><a href="http://sc.jb51.net/Design/hcsj/index.html" title="画册设计" target="_blank">画册设计</a> <a href="http://sc.jb51.net/Design/hcsj/index.html" title="画册模板" target="_blank">画册模板</a></h4></li>
+<li><a href="http://sc.jb51.net/Design/mpmb/index.html" title="名片模板" target="_blank"><img src="http://img.jb51.net/images/mingpian.jpg" width="143" height="166" alt="名片模板" /></a>
+  <h4><a href="http://sc.jb51.net/Design/mpmb/index.html" title="名片模板" target="_blank">名片模板</a> <a href="http://sc.jb51.net/Design/heka/index.html" title="名片模板" target="_blank">贺卡图片</a></h4></li>
+<li><a href="http://sc.jb51.net/Design/Poster/index.html" title="海报展板" target="_blank"><img src="http://img.jb51.net/images/haibao.jpg" width="143" height="166" alt="海报展板" /></a>
+  <h4><a href="http://sc.jb51.net/Design/zbsj/index.html" title="展板模板" target="_blank">展板模板</a> <a href="http://sc.jb51.net/Design/Poster/index.html" title="展板模板" target="_blank">海报素材</a></h4></li>
+<li><a href="http://sc.jb51.net/Web/Template/index.html" title="网页模板" target="_blank"><img src="http://img.jb51.net/images/moban.jpg" width="143" height="166" alt="网页模板" /></a>
+  <h4><a href="http://sc.jb51.net/Web/Template/index.html" title="网页模板" target="_blank">网页模板</a> <a href="http://sc.jb51.net/Web/code/index.html" title="商业源码" target="_blank">商业源码</a></h4></li>
+</ul>
+<div class="clear"></div>
+ </div>
+    </div> 
+<div class="blank20"></div>
+<DIV class="dxy_main">
+<script type="text/javascript">var cpro_id = 'u1919103';</script><script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script>
+</div>
+<div class="blank3"></div>
+<div id="ontools">
+  <div>
+    <h2><span>网站地图导航</span></h2>
+<p><a href="http://www.jb51.net/list/index_96.htm" target="_blank"><strong>脚本专栏</strong></a><a href="/list/list_114_1.htm" title="vbs" target="_blank">vbscript</a><a href="/list/list_106_1.htm" target="_blank">批处理</a><a href="/list/list_97_1.htm" target="_blank">python</a><a href="/list/list_125_1.htm" target="_blank">perl</a><A href="http://www.jb51.net/shouce/" target="_blank">在线手册</A><a href="http://www.jb51.net/list/index_1.htm" target="_blank"><strong>网络编程</strong></a><a href="/list/list_2_1.htm"  target="_blank">ASP编程</a><a href="/list/list_15_1.htm"  target="_blank">PHP编程</a><a href="/list/list_21_1.htm"  target="_blank">ASP.NET</a><a href="/list/list_83_1.htm"  target="_blank">JSP编程</a><a href="http://www.jb51.net/list/list_6_1.htm" target="_blank">正则表达式</a><a href="http://www.jb51.net/list/index_84.htm"  target="_blank"><strong>软件编程</strong></a><a href="/list/list_93_1.htm" target="_blank">vb</a><a href="http://www.jb51.net/list/list_85_1.htm" target="_blank">C#</a><a href="/list/list_159_1.htm" target="_blank">C 语言</a><a href="/list/list_134_1.htm" target="_blank">Java编程</a><a href="/list/list_206_1.htm" target="_blank">Delphi</a><a href="/list/list_207_1.htm" target="_blank">java</a><a href="/list/list_233_1.htm" target="_blank">Android</a><a href="http://www.jb51.net/codes/"  target="_blank"><strong>源码下载</strong></a><A href="http://www.jb51.net/codes/asp.html" target="_blank">Asp源码</A> <A href="http://www.jb51.net/codes/aspnet.html" target="_blank">.net源码</A> <A href="http://www.jb51.net/codes/php.html" target="_blank">PHP源码</A>  <A href="http://www.jb51.net/codes/jsp.html" target="_blank">jsp源码</A> <A href="http://www.jb51.net/codes/editor.html" target="_blank">网页编辑器</A><A href="http://www.jb51.net/softs/" target="_blank"><strong>软件下载</strong></A><a href="http://www.jb51.net/tools.htm" target="_blank">网站开发常用软件</a><a href="http://s.jb51.net" target="_blank">服务器常用软件</a><a href="http://www.jb51.net/softs/list24_1.html" target="_blank">编程开发</a><a href="http://www.jb51.net/softs/list64_1.html" target="_blank">网页设计</a><a href="http://sc.jb51.net" target="_blank"><strong>素材中国</strong></a><A href="http://www.jb51.net/photoshop/" target="_blank">photoshop教程</A><A href="http://www.jb51.net/Fireworks/" target="_blank">Fireworks教程</A><A href="http://www.jb51.net/CorelDraw/" target="_blank">CorelDraw教程</A><a href="http://www.jb51.net/media/" title="媒体动画" target="_blank">媒体动画</a><a href="http://www.jb51.net/os/" target="_blank"><strong>操作系统</strong></a><a href="http://www.jb51.net/os/windows/" target="_blank">Windows系列</a><a href="http://www.jb51.net/os/Solaris/" target="_blank">Solaris</a><a href="http://www.jb51.net/os/qilin/" target="_blank">麒麟系统</a><a href="http://www.jb51.net/os/Unix/" target="_blank">Unix/BSD</a><a href="http://www.jb51.net/os/Fedora/" target="_blank">Fedora</a><a href="http://www.jb51.net/os/RedHat/" target="_blank">RedHat</a><a href="http://www.jb51.net/os/hongqi/" target="_blank">红旗Linux</a><a href="http://www.jb51.net/hardware/" target="_blank">硬件教程</a><a href="http://www.jb51.net/softs/list52_1.html" target="_blank">图形图像</a><a href="http://www.jb51.net/softs/list51_1.html" target="_blank">媒体工具</a><a href="http://www.jb51.net/softjc/" title="软件教学" target="_blank">软件教学</a><a href="http://www.jb51.net/softs/list24_1.html" target="_blank">编程工具</a><a href="http://www.jb51.net/softs/list56_1.html" target="_blank">黑客相关</a><a href="http://www.jb51.net/tools.htm" target="_blank">网站开发常用软件</a><a href="http://play.jb51.net" target="_blank">播放器之家</a><a href="http://www.jb51.net/qudong/" target="_blank">驱动下载</a><a href="http://sc.jb51.net" target="_blank">素材之家</a><a href="http://www.jb51.net/fonts/" target="_blank">字体下载</a><a href="http://www.jb51.net/linux/" target="_blank">Linux常用命令全集</a><a href="http://office.jb51.net" target="_blank">office教程</a><a href="http://yueduqi.jb51.net" target="_blank">阅读器之家</a><a href="http://www.jb51.net/dazi/" title="打字学习" target="_blank">打字练习</a><a href="http://yulu.jb51.net/" target="_blank">语录大全网</a><a href="http://www.jb51.net/gonglue/" title="游戏攻略" target="_blank" class="noborder">游戏攻略</a></p>
+</div>
+</div>
+<div class="blank3"></div>
+<div id="friendlinks">
+<div class="hd"><FONT>欢迎交换友情链接 联系QQ： 461478385</FONT><SPAN></SPAN><h2>友情链接</h2></div>
+<p><a href="http://www.blueidea.com" alt="蓝色理想 - 网站设计与开发人员之家" target="_blank">蓝色理想</a><a href="http://www.knowsky.com" target="_blank">动态网站制作</a><a href="http://www.ithome.com/" target="_blank">IT之家</a><a href="http://www.diyifanwen.com" target="_blank">第一范文网</a><a href="http://www.chinaz.com/web/" target="_blank">建站资讯</a><a href="http://developer.51cto.com/" target="_blank">51CTO开发</a><a href="http://www.52pojie.cn" target="_blank">吾爱破解论坛</a><a href="http://www.baidu.com" target="_blank">百度</a><a href="http://www.xiazaiba.com" target="_blank">下载吧</a><a href="http://www.downcc.com" target="_blank">绿色资源网</a><a href="http://www.missyuan.com" target="_blank">思缘设计</a><a href="http://www.jz5u.com" target="_blank">JZ5U绿色下载站</a><a href="http://www.greenxf.com" target="_blank">绿色先锋下载</a><a href="http://www.wzsky.net/" target="_blank">设计前沿</a><a href="http://www.orsoon.com" target="_blank">未来软件园</a><a href="http://www.51aspx.com" target="_blank">.Net源码专业站</a><a href="http://down.admin5.com/" target="_blank">A5源码下载</a><a href="http://www.ddooo.com/" target="_blank">多多软件站</a><a href="http://www.piaodown.com" target="_blank">飘荡软件</a><a href="http://www.2cto.com/" target="_blank">红黑联盟</a><a href="http://www.downxia.com" target="_blank">当下软件园</a><a href="http://www.gezila.com" target="_blank">格子啦下载</a><a href="http://www.9553.com/" target="_blank">9553下载</a><a href="http://www.3d66.com/" target="_blank">3D溜溜网</a><a href="http://soft.hao123.com" target="_blank">hao123下载</a><a href="http://www.jb51.net/link.htm" target="_blank" class="noborder">更多</a></p>
+</div>
+</div>
+<div class="blank3"></div>
+<div id="footer">
+  <div id="footerinfo">
+    <div id="footercontent"><a rel="nofollow" href="http://www.jb51.net/about.htm" target="_blank">关于我们</a> - <a rel="nofollow" href="http://www.jb51.net/support.htm" target="_blank">广告合作</a> - <a rel="nofollow" href="http://www.jb51.net/linkus.htm" target="_blank">联系我们</a> - <a rel="nofollow" href="http://www.jb51.net/sm.htm" target="_blank">免责声明</a> - <a rel="nofollow" href="http://www.jb51.net/sitemap.htm" target="_blank">网站地图</a> - <a rel="nofollow" href="tencent://message/?uin=461478385&Site=http://www.jb51.net" target="_blank">投诉建议</a> - <a rel="nofollow" href="http://www.jb51.net/up.htm" target="_blank">在线投稿</a></div>
+    <div id="footercopyrights">严禁网站镜像，否则追究法律责任 CopyRight &copy; 2006-2015 <a href="http://www.jb51.net">脚本之家</a> JB51.Net , All Rights Reserved. </div>
+    <div class="qinfo">QQ交流群：①群 14624678 ②群 36345889 ③群 232608061 ④群 255725565<br /><a rel="nofollow" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32031102000137" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="http://www.beian.gov.cn/file/ghs.png"/>苏公网安备 32031102000137号</a>&nbsp;&nbsp;<a href="http://www.miibeian.gov.cn" rel="nofollow" target="_blank">苏ICP备14036222号</a> </div>
+    <DIV class=ewm><IMG alt="脚本之家官方微信" src="http://img.jb51.net/images/weixin_jb51.gif"></DIV>
+    <div class="zz"><script language="javascript" src="http://img.jb51.net/imgby/zanzhu.js"></script></div>
+    <div class="rz"><a rel="nofollow" id="_pingansec_bottomimagesmall_shiming" href="http://si.trustutn.org/info?sn=648151026018110372184&certType=1"><img src="http://v.trustutn.org/images/cert/bottom_small_img.png"/></a></div>
+  </div>
+</div>
+<div id="logo_m_tp"><script type="text/javascript">dy("logo_m");</script></div>
+<div id="logo_r_tp"><script type="text/javascript">dy("logo_r");</script></div>
+<div id="tonglan1_tp"><script type="text/javascript">dy("tonglan1_2");</script></div>
+<div id="tonglan3_tp"><script type="text/javascript">dy("tonglan3_2");</script></div>
+<div id="tonglan6_tp"><script type="text/javascript">dy("tonglan6");</script></div>
+<div class="tongji">
+<script type="text/javascript">
+function switchad(adname,adtpname){
+ if (getid(adname) && getid(adtpname)){
+getid(adname).innerHTML=getid(adtpname).innerHTML;
+getid(adtpname).innerHTML='';
+}
+} 
+try{
+switchad("logo_m","logo_m_tp");
+switchad("logo_r","logo_r_tp");
+switchad("tonglan1","tonglan1_tp");
+switchad("tonglan3","tonglan3_tp");
+switchad("tonglan6","tonglan6_tp");
+}catch(e){}
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fb88cfc1ccab788f0903cac38c894caa3' type='text/javascript'%3E%3C/script%3E"));
+document.write('<scr'+'ipt src="http://s73.cnzz.com/stat.php?id=1585378&web_id=1585378" language="JavaScript"></sc'+'ript>');
+document.write('<sc'+'ript src="http://s96.cnzz.com/stat.php?id=4180674&web_id=4180674" language="JavaScript"></scr'+'ipt>');
+</script>
+</div>
+</body>
+
+</html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="Content-Language" content="zh-CN" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>脚本之家_www.jb51.net</title>
+<link rel="shortcut icon" href="http://www.jb51.net/favicon.ico" type="image/x-icon"/>
+<link rel="icon" href="http://www.jb51.net/favicon.ico" type="image/x-icon"/>
+<meta name="robots" content="index, follow" />
+<meta name="googlebot" content="index, follow" />
+<meta name="author" content="dxy | www.jb51.net" />
+<meta name="Copyright" content="Copyright (c) 2006-2016 jb51.net" />
+<meta name="description" content="脚本之家是国内专业的网站建设资源、脚本编程学习类网站，提供asp、php、asp.net、javascript、jquery、vbscript、dos批处理、网页制作、网络编程、网站建设等编程资料。" />
+<meta name="Abstract" content="提供最新的网络编程、脚本编程、网页制作、网页设计、网页特效，为站长与网络编程从业者提供学习资料。" />
+<meta name="keywords" content="脚本,vbscript,正则表达式,jquery,dos,bat,批处理,javascript,Photoshop,HTML,div+css,ASP,PHP,ASP.NET" />
+<link rel="stylesheet" href="http://img.jb51.net/skin/blue/global.css" type="text/css" media="all" />
+<script type="text/javascript">
+(function(){var ua=navigator.userAgent.toLowerCase();var bIsIpad=ua.match(/ipad/i)=="ipad";var bIsIphoneOs=ua.match(/iphone os/i)=="iphone os";var bIsAndroid=ua.match(/android/i)=="android";var bIsWM=ua.match(/windows mobile/i)=="windows mobile";if(bIsIpad||bIsIphoneOs||bIsAndroid||bIsWM){window.location.href="http://m.jb51.net"}})();
+</script>
+<script type="text/javascript" src="http://img.jb51.net/jslib/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://img.jb51.net/js/function.js"></script>
+<meta property="qc:admins" content="4254574125051622516654" />
+</head>
+<body>
+<DIV id="topnav">
+<div class="wrap">
+<DIV id="toptext">脚 本 之 家 www.jb51.net</DIV>
+<UL id="topnavlist">
+<li><a href="http://idc.jb51.net/?jb51" target="_blank" style="color:red">脚本云</a></li>
+<li><a href="http://www.jb51.net/zt/" target="_blank">专题</a></li>
+<li><a href="http://www.jb51.net/w3school/" target="_blank">网页教程基础</a></li>
+<li><a href="http://s.jb51.net" target="_blank">服务器安全设置</a></li>
+<li><a href="http://www.jb51.net/codes/" target="_blank">源码下载</a></li>
+<li><a href="http://www.jb51.net/softs/" target="_blank">软件下载</a></li>
+<li><a href="http://www.jb51.net/softs/sj.html" target="_blank">手机软件</a></li>
+<li><a href="http://www.jb51.net/new/new_1.htm" target="_blank">最近更新</a></li>
+</UL>
+</div>
+</DIV>
+<div class="wrap">
+<div id="dxy_logo">
+<div id="logo_l"><a href="http://www.jb51.net" title="脚本之家" target="_blank"><img src="/images/logo.gif" alt="脚本之家" /></a></div>
+<div id="logo_m"></div>
+<div id="logo_r"></div>
+</div>
+<div id="nav_top">
+<ul>
+<li><a href="http://www.jb51.net/web/">网页制作</a></li>
+<li><a href="http://www.jb51.net/list/index_1.htm">网络编程</a></li>
+<li><a href="http://www.jb51.net/list/index_96.htm">脚本专栏</a></li>
+<li><a href="http://www.jb51.net/jiaoben/">脚本下载</a></li>
+<li><a href="http://www.jb51.net/list/index_104.htm">数据库</a></li>
+<li><a href="http://www.jb51.net/cms/">CMS教程</a></li>
+<li><a href="http://www.jb51.net/books/">电子书籍</a></li>
+<li><a href="http://www.jb51.net/pingmian/">平面设计</a></li>
+<li><a href="http://www.jb51.net/media/">媒体动画</a></li>
+<li><a href="http://www.jb51.net/os/">操作系统</a></li>
+<li><a href="http://www.jb51.net/yunying/">网站运营</a></li>
+<li><a href="http://www.jb51.net/hack/">网络安全</a></li>
+<li class="last"><a href="http://www.jb51.net/shouce/">在线手册</a></li>
+
+</ul>
+</div>
+<div class="blank3"></div>
+<div class="subnav">
+<ul>
+<li><a href='http://www.jb51.net/list/list_3_1.htm' title="javascript" target="_blank">javascript</a></li>
+<li><a href='http://www.jb51.net/list/list_172_1.htm' title="jquery教程" target="_blank">jquery</a></li>
+<li><a href='http://www.jb51.net/list/list_114_1.htm' title="vbscript" target="_blank">vbscript</a></li>
+<li><a href='http://www.jb51.net/list/list_6_1.htm' title="正则表达式" target="_blank">正则表达式</a></li>
+<li><a href="http://www.jb51.net/jiaoben/guanggao1.html" title="广告代码下载" target="_blank"><font color=red>广告代码</font></a></li>
+<li><a href="http://www.jb51.net/list/list_82_1.htm" title="服务器教程" target="_blank">服务器教程</a></li>
+<li><a href="http://www.jb51.net/codes/editor.html" title="网页编辑器" target="_blank">网页编辑器</a></li>
+<li><a href="http://www.jb51.net/database/" title="数据库工具" target="_blank">数据库工具</a></li>
+<li><a href="http://www.jb51.net/shouce/" title="在线手册" target="_blank">在线手册</a></li>
+<li><a href="http://www.jb51.net/hack/" title="黑客技术" target="_blank">网络安全</a></li>
+<li><a href="http://www.jb51.net/softjc/" title="软件教学" target="_blank">软件教学</a></li>
+<li><a href="http://www.jb51.net/softs/bc.html" title="编程开发软件" target="_blank">编程软件</a></li>
+<li><a href="http://www.jb51.net/zt/photoshopxz.html" title="photoshop软件下载" target="_blank">ps软件</a></li>
+<li><a href="http://www.jb51.net/dll/" title="dll下载" target="_blank">DLL下载</a></li>
+</ul>
+</div>
+<div class=blank3></div>
+<DIV class="search">
+<UL><LI class=search-hot><SPAN>特色栏目：</SPAN>
+<A href="http://www.jb51.net/list/list_114_1.htm" target='_blank'>vbscript</A> 
+<A href="http://www.jb51.net/list/list_6_1.htm" target='_blank'>正则表达式</A> 
+<A href="http://www.jb51.net/list/list_3_1.htm" target='_blank'>javascript</A>
+<A href="http://www.jb51.net/list/list_106_1.htm" target='_blank'>批处理</A>
+<A href="http://s.jb51.net">服务器软件</A> 
+<A href="http://sc.jb51.net/?txt" target="_blank" style="color:red">素材下载</A> 
+</LI><LI class=search-box>
+<div class="sall">
+<form action="http://so.jb51.net/cse/search" target="_blank">
+    <input type="hidden" name="s" value="10520733385329581432">
+    <input type="hidden" name="ie" value="gbk">
+    <input type="text" name="q" class="keyword_input">
+    <input type="submit" value="搜索" class="s_btn">
+</form></div>
+</LI></UL>
+</div>
+<div class="blank3"></div>
+<div id="tonglan1"></div>
+<div class="blank3"></div>
+<div class="dxy_main">
+<div class="dxy728"><script type="text/javascript" src="http://img.jb51.net/imgby/gg72890_2.js"></script></div>
+<div class="dxy230"><script type="text/javascript" src="http://img.jb51.net/zanzhu/gg230jb51.js"></script></div>
+</div>
+<div class="blank3"></div>
+<div class="dxy_main">
+<div class="dxy_main_l">
+<DIV class="main_l_l">
+<DIV class="dxy_list">
+<DIV class="dxy_menu">
+<DIV class="rongqi">
+<P><A href="http://www.jb51.net/new/new_1.htm" target="_blank">编程技术</a></P>
+<DIV class="clear"></DIV></DIV></DIV>
+<DIV class="list_body">
+<UL>
+<li><a href="/article/81199.htm" title="C++程序中使用Windows系统Native Wifi API的基本教程" target="_blank">C++程序中使用Windows系统Native Wifi API的基本教程</a></li>
+<li><a href="/article/81198.htm" title="图文讲解Android的ImageView类中的ScaleType属性设置" target="_blank">图文讲解Android的ImageView类中的ScaleType属性设置</a></li>
+<li><a href="/article/81197.htm" title="Android中使用Bitmap类将矩形图片转为圆形的方法" target="_blank">Android中使用Bitmap类将矩形图片转为圆形的方法</a></li>
+<li><a href="/article/81196.htm" title="Android App中实现可以双击放大和缩小图片功能的实例" target="_blank">Android App中实现可以双击放大和缩小图片功能的实例</a></li>
+<li><a href="/article/81195.htm" title="Android Studio与SVN版本控制程序的协作使用指南" target="_blank">Android Studio与SVN版本控制程序的协作使用指南</a></li>
+<li><a href="/article/81194.htm" title="简单理解JavaScript中的封装与继承特性" target="_blank">简单理解JavaScript中的封装与继承特性</a></li>
+<li><a href="/article/81193.htm" title="Python的Socket编程过程中实现UDP端口复用的实例分享" target="_blank">Python的Socket编程过程中实现UDP端口复用的实例分享</a></li>
+<li><a href="/article/81192.htm" title="JavaScript的函数式编程基础指南" target="_blank">JavaScript的函数式编程基础指南</a></li>
+<li><a href="/article/81191.htm" title="Zend Framework入门知识点小结" target="_blank">Zend Framework入门知识点小结</a></li>
+<li><a href="/article/81190.htm" title="深入解析JavaScript中函数的Currying柯里化" target="_blank">深入解析JavaScript中函数的Currying柯里化</a></li>
+<li><a href="/article/81189.htm" title="Zend Framework缓存Cache用法简单实例" target="_blank">Zend Framework缓存Cache用法简单实例</a></li>
+<li><a href="/article/81188.htm" title="使用Python编写基于DHT协议的BT资源爬虫" target="_blank">使用Python编写基于DHT协议的BT资源爬虫</a></li>
+<li><a href="/article/81187.htm" title="Zend Framework基本页面布局分析" target="_blank">Zend Framework基本页面布局分析</a></li>
+<li><a href="/article/81186.htm" title="Zend Framework连接Mysql数据库实例分析" target="_blank">Zend Framework连接Mysql数据库实例分析</a></li>
+<li><a href="/article/81185.htm" title="讲解Oracle数据库中的数据字典及相关SQL查询用法" target="_blank">讲解Oracle数据库中的数据字典及相关SQL查询用法</a></li>
+
+  </UL></DIV></DIV></DIV>
+<DIV class="main_l_r">
+<DIV class="dxy_list">
+<DIV class="dxy_menu">
+<DIV class="rongqi">
+<P><A href="http://www.jb51.net/new/new_1.htm" target="_blank">最近更新</A></P>
+<DIV class="clear"></DIV></DIV></DIV>
+<DIV class="list_body">
+<ul>
+<li><a href="/hardware/cpu/442146.html" target="_blank">i5 4590和FX 8300哪个好点 FX-8300与i5-4590区别对比</a></li><li><a href="/shouji/442095.html" target="_blank">LG G5怎么截图？LG G5截屏方法图解介绍</a></li><li><a href="/shouji/442096.html" target="_blank">LG G5怎么截图？LG G5截屏方法图解介绍</a></li><li><a href="/shouji/442094.html" target="_blank">魅族PRO6有几个版本？魅族PRO6各版本区别对比介绍</a></li><li><a href="/shouji/442093.html" target="_blank">小米5开不了机怎么办？小米5不能机的原因及图文解决方</a></li><li><a href="/shouji/442084.html" target="_blank">iPhone SE和三星Note5哪个好？iPhone SE和三星Note5详</a></li><li><a href="/shouji/442078.html" target="_blank">国行版HTC M8t(移动版)终于推送Android 6.0 版本号为6</a></li><li><a href="/softjc/442072.html" target="_blank">美播app怎么私信好友?美播app私信好友方法介绍</a></li><li><a href="/softjc/442068.html" target="_blank">猫眼电影app怎么删除看过的电影?</a></li><li><a href="/CorelDraw/442064.html" target="_blank">CAD图形转入CorelDRAW怎么填充不了颜色?</a></li><li><a href="/Illustrator/442061.html" target="_blank">在AI中直接改变画板的大小方法介绍</a></li><li><a href="/photoshop/442059.html" target="_blank">使用Photoshop对照片进行虚化处理</a></li><li><a href="/photoshop/442055.html" target="_blank">PS给图片制作局部马赛克效果</a></li><li><a href="/photoshop/442051.html" target="_blank">用ps制作一片雪花过程介绍</a></li><li><a href="/photoshop/442049.html" target="_blank">PS简单制作一个圆角的图片</a></li>
+</ul>
+</DIV></DIV>
+</DIV>
+</div>
+<div class="dxy_main_r">
+<DIV class="r_title"><H6>下载中心</H6></div>
+<div class="rightContent">
+<ul>
+<li><a href="/softs/39926.html" target="_blank">百度关键字优化精灵 V1.8.2.10 绿色免费版 </a></li><li><a href="/softs/105190.html" target="_blank">梦幻影楼软件 v6.5 中文绿色免费版</a></li><li><a href="/softs/38933.html" target="_blank">NexusImage 图像浏览器 V1.1.3992  绿色多</a></li><li><a href="/softs/104951.html" target="_blank">EditBone(好的文本编辑器) V10.10.4 英文绿</a></li><li><a href="/softs/80826.html" target="_blank">root精灵(支持中兴,华为,联想,三星,HTC,红</a></li><li><a href="/softs/39829.html" target="_blank">快手(AAuto Quicker)快速开发语言编程工具 </a></li><li><a href="/softs/142095.html" target="_blank">WiFi共享大师 V2.2.4.8 中文官方安装版</a></li><li><a href="/softs/439940.html" target="_blank">天启法宣在线学法考试助手快速版 v1.5 官方</a></li><li><a href="/softs/55437.html" target="_blank">CDBurnerXP(CD和DVD光盘刻录软件) 4.5.6.60</a></li><li><a href="/softs/36144.html" target="_blank">CDBurnerXP Pro免费的刻录CD及DVD的软件 v4</a></li><li><a href="/softs/21370.html" target="_blank">光盘刻录 CDBurnerXP Pro  v4.5.6.6064 多</a></li><li><a href="/softs/155732.html" target="_blank">铃声狗狗 for android v1.3.856 安卓版</a></li><li><a href="/softs/442141.html" target="_blank">Adobe After Effects CS3 中文绿色免费版</a></li><li><a href="/softs/155566.html" target="_blank">落网(个性化音乐推荐平台) for android v5.</a></li><li><a href="/softs/155557.html" target="_blank">Smart RAM Booster (智能内存优化) for and</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="blank3"></div>
+<div class="mainad" id="tonglan3"></div>
+<div class="blank3"></div>
+<div class="dxy_main">
+<div class="dxy_main_l">
+<div class='main_l_l'>
+<div class="dxy_list">
+<div class="dxy_menu">
+<SPAN><A href="/list/list_3_1.htm" target="_blank">更多>> </A></SPAN>
+<div class="rongqi"><p><a href="/list/list_3_1.htm">JavaScript</a><p><DIV class=clear></DIV></div></div>
+<div class="list_body">
+<ul>
+<li><span>03-19</span><a href="/article/81194.htm" title="简单理解JavaScript中的封装与继承特性" target="_blank">简单理解JavaScript中的封装与继承特性</a></li>
+<li><span>03-19</span><a href="/article/81192.htm" title="JavaScript的函数式编程基础指南" target="_blank">JavaScript的函数式编程基础指南</a></li>
+<li><span>03-19</span><a href="/article/81190.htm" title="深入解析JavaScript中函数的Currying柯里化" target="_blank">深入解析JavaScript中函数的Currying柯里</a></li>
+<li><span>03-19</span><a href="/article/81180.htm" title="Linux下为Node.js程序配置MySQL或Oracle数据库的方法" target="_blank">Linux下为Node.js程序配置MySQL或Oracle数</a></li>
+<li><span>03-18</span><a href="/article/81172.htm" title="分享js粘帖屏幕截图到web页面插件screenshot-paste" target="_blank">分享js粘帖屏幕截图到web页面插件screens</a></li>
+<li><span>03-18</span><a href="/article/81171.htm" title="JQuery用户名校验的具体实现" target="_blank">JQuery用户名校验的具体实现</a></li>
+<li><span>03-18</span><a href="/article/81170.htm" title="基于javascript实现页面加载loading效果" target="_blank">基于javascript实现页面加载loading效果</a></li>
+<li><span>03-18</span><a href="/article/81169.htm" title="JQuery fileupload插件实现文件上传功能" target="_blank">JQuery fileupload插件实现文件上传功能</a></li>
+<li><span>03-18</span><a href="/article/81168.htm" title="javascript移动开发中touch触摸事件详解" target="_blank">javascript移动开发中touch触摸事件详解</a></li>
+<li><span>03-18</span><a href="/article/81162.htm" title="使用JavaScript为Kindeditor自定义按钮增加Audio标签" target="_blank">使用JavaScript为Kindeditor自定义按钮增</a></li>
+</ul></div></div></div><div class='main_l_r'>
+<div class="dxy_list">
+<div class="dxy_menu">
+<SPAN><A href="/list/list_21_1.htm" target="_blank">更多>> </A></SPAN>
+<div class="rongqi"><p><a href="/list/list_21_1.htm">ASP.NET</a><p><DIV class=clear></DIV></div></div>
+<div class="list_body">
+<ul>
+<li><span>03-17</span><a href="/article/81100.htm" title="全面剖析.Net环境下的缓存技术" target="_blank">全面剖析.Net环境下的缓存技术</a></li>
+<li><span>03-17</span><a href="/article/81099.htm" title="ADO.NET通用数据库访问类" target="_blank">ADO.NET通用数据库访问类</a></li>
+<li><span>03-17</span><a href="/article/81081.htm" title="ASP.NET MVC异常处理模块详解" target="_blank">ASP.NET MVC异常处理模块详解</a></li>
+<li><span>03-15</span><a href="/article/80974.htm" title="ASP.NET/C#中如何调用动态链接库DLL" target="_blank">ASP.NET/C#中如何调用动态链接库DLL</a></li>
+<li><span>03-08</span><a href="/article/80635.htm" title="asp.net实现调用存储过程并带返回值的方法" target="_blank">asp.net实现调用存储过程并带返回值的方法</a></li>
+<li><span>03-08</span><a href="/article/80634.htm" title="asp.net实现调用带有输出参数的存储过程实例" target="_blank">asp.net实现调用带有输出参数的存储过程实</a></li>
+<li><span>03-07</span><a href="/article/80596.htm" title="asp.net采集页面上所有图像图片资源的具体方法" target="_blank">asp.net采集页面上所有图像图片资源的具体</a></li>
+<li><span>03-07</span><a href="/article/80594.htm" title="ASP.NET多文件上传控件Uploadify的使用方法" target="_blank">ASP.NET多文件上传控件Uploadify的使用方</a></li>
+<li><span>03-07</span><a href="/article/80592.htm" title="ASP.NET文件上传控件Uploadify的使用方法" target="_blank">ASP.NET文件上传控件Uploadify的使用方法</a></li>
+<li><span>03-07</span><a href="/article/80560.htm" title="Gridview利用DataFormatString属性设置数据格式的方法" target="_blank">Gridview利用DataFormatString属性设置数</a></li>
+</ul></div></div></div><DIV class=blank3></DIV><div class='main_l_l'>
+<div class="dxy_list">
+<div class="dxy_menu">
+<SPAN><A href="/list/list_15_1.htm" target="_blank">更多>> </A></SPAN>
+<div class="rongqi"><p><a href="/list/list_15_1.htm">PHP编程</a><p><DIV class=clear></DIV></div></div>
+<div class="list_body">
+<ul>
+<li><span>03-19</span><a href="/article/81191.htm" title="Zend Framework入门知识点小结" target="_blank">Zend Framework入门知识点小结</a></li>
+<li><span>03-19</span><a href="/article/81189.htm" title="Zend Framework缓存Cache用法简单实例" target="_blank">Zend Framework缓存Cache用法简单实例</a></li>
+<li><span>03-19</span><a href="/article/81187.htm" title="Zend Framework基本页面布局分析" target="_blank">Zend Framework基本页面布局分析</a></li>
+<li><span>03-19</span><a href="/article/81186.htm" title="Zend Framework连接Mysql数据库实例分析" target="_blank">Zend Framework连接Mysql数据库实例分析</a></li>
+<li><span>03-19</span><a href="/article/81184.htm" title="Zend Framework+smarty用法实例详解" target="_blank">Zend Framework+smarty用法实例详解</a></li>
+<li><span>03-19</span><a href="/article/81182.htm" title="ThinkPHP使用Smarty第三方插件方法小结" target="_blank">ThinkPHP使用Smarty第三方插件方法小结</a></li>
+<li><span>03-19</span><a href="/article/81176.htm" title="smarty学习笔记之常见代码段用法总结" target="_blank">smarty学习笔记之常见代码段用法总结</a></li>
+<li><span>03-19</span><a href="/article/81174.htm" title="FleaPHP框架数据库查询条件($conditions)写法总结" target="_blank">FleaPHP框架数据库查询条件($conditions)</a></li>
+<li><span>03-18</span><a href="/article/81166.htm" title="PHP指定截取字符串中的中英文或数字字符的实例分享" target="_blank">PHP指定截取字符串中的中英文或数字字符的</a></li>
+<li><span>03-18</span><a href="/article/81165.htm" title="详解PHP的Yii框架中组件行为的属性注入和方法注入" target="_blank">详解PHP的Yii框架中组件行为的属性注入和</a></li>
+</ul></div></div></div><div class='main_l_r'>
+<div class="dxy_list">
+<div class="dxy_menu">
+<SPAN><A href="/list/list_6_1.htm" target="_blank">更多>> </A></SPAN>
+<div class="rongqi"><p><a href="/list/list_6_1.htm">正则表达式</a><p><DIV class=clear></DIV></div></div>
+<div class="list_body">
+<ul>
+<li><span>03-16</span><a href="/article/81023.htm" title="正则表达式如何在PHP里灵活的应用" target="_blank">正则表达式如何在PHP里灵活的应用</a></li>
+<li><span>03-11</span><a href="/article/80779.htm" title="php正则表达式中贪婪与非贪婪介绍" target="_blank">php正则表达式中贪婪与非贪婪介绍</a></li>
+<li><span>03-09</span><a href="/article/80690.htm" title="IP地址正则表达式匹配方法" target="_blank">IP地址正则表达式匹配方法</a></li>
+<li><span>03-09</span><a href="/article/80669.htm" title="AS3 js正则表达式 反向引用(backreference)" target="_blank">AS3 js正则表达式 反向引用(backreferenc</a></li>
+<li><span>03-09</span><a href="/article/80660.htm" title="详解正则表达式表单验证实例" target="_blank">详解正则表达式表单验证实例</a></li>
+<li><span>03-07</span><a href="/article/80591.htm" title="正则表达式匹配用户密码" target="_blank">正则表达式匹配用户密码</a></li>
+<li><span>03-02</span><a href="/article/80346.htm" title="55分钟学会正则表达式" target="_blank">55分钟学会正则表达式</a></li>
+<li><span>03-01</span><a href="/article/80301.htm" title="去掉字符串前后所有空格的正则表达式" target="_blank">去掉字符串前后所有空格的正则表达式</a></li>
+<li><span>02-29</span><a href="/article/80182.htm" title="正值表达式匹配html标签的属性值" target="_blank">正值表达式匹配html标签的属性值</a></li>
+<li><span>02-26</span><a href="/article/80072.htm" title="ExtJS4的文本框(textField)使用正则表达式进行验证(Regex)的方法" target="_blank">ExtJS4的文本框(textField)使用正则表达式</a></li>
+</ul></div></div></div><DIV class=blank3></DIV>
+</div>
+<div class="dxy_main_r">
+<DIV class="r_title"><H6>本 站 公 告</H6></div>
+<div class="rightContent">
+<ul><li><a href=/article/73947.htm title="脚本之家诚征下载服务器赞助了" target="_blank">脚本之家诚征下载服务器赞助了</a></li>
+<li><a href=/article/72969.htm title="关于近期脚本之家网站被360报木马网站的声明" target="_blank">关于近期脚本之家网站被360报木马网站的声</a></li>
+<li><a href=/article/52310.htm title="脚本之家无法访问或访问较慢临时解决方案" target="_blank">脚本之家无法访问或访问较慢临时解决方案</a></li>
+<li><a href=/article/42273.htm title="脚本之家学习交流群一览" target="_blank">脚本之家学习交流群一览</a></li>
+<li><a href=/article/37618.htm title="脚本之家长期接受服务器赞助" target="_blank">脚本之家长期接受服务器赞助</a></li>
+</ul>
+</div>
+<div class="blank3"></div>
+<DIV class="r_title"><H6><a href="http://www.jb51.net/zt/" target="_blank">专 题 中 心</a></H6></div>
+<div class="rightContent">
+<ul>
+<li><a href="/zt/MacDrive.html" target="_blank">MacDrive下载_MacDrive软件下载_MacDrive工</a></li><li><a href="/zt/huaweiwangpan.html" target="_blank">华为网盘下载_华为网盘官方下载_华为网盘使</a></li><li><a href="/zt/evernote.html" target="_blank">印象笔记下载_印象笔记(Evernote)官方下载_</a></li><li><a href="/zt/jiudianglxt.html" target="_blank">酒店管理系统下载_酒店管理软件免费版_酒店</a></li><li><a href="/zt/teamviewer.html" target="_blank">TeamViewer破解版下载_TeamViewer官网下载_</a></li><li><a href="/zt/solidworks.html" target="_blank">solidworks下载_solidworks破解版下载_soli</a></li><li><a href="/zt/foobar2000.html" target="_blank">foobar2000下载_foobar2000中文版下载_foob</a></li><li><a href="/zt/shipinjjrj.html" target="_blank">视频剪辑软件下载_视频剪辑软件哪个好_视频</a></li><li><a href="/zt/CAIJIQI.html" target="_blank">采集器下载_无人值守采集器下载_采集器使用</a></li>
+<li><a href="http://office.jb51.net/powerpoint/5323.html" target="_blank">在PPT中如何快速实现图形的相对复制有哪些方法</a></li>
+<li><a href="http://office.jb51.net/excel/5322.html" target="_blank">如何筛选前10名的数据并保持原有数据的顺序</a></li>
+<li><a href="http://office.jb51.net/word/5321.html" target="_blank">在文档表格中如何制作斜线表头史上最简单的两个步骤</a></li>
+
+</ul>
+</div>
+</DIV>
+</div><!--end main-->
+<div class="blank3"></div>
+<div class="mainad" id="tonglan6"></div>
+<div class="blank3"></div>
+<!--main2-->
+<div class="dxy_main">
+<div class="dxy_main_l">
+<div class="main_l_l">
+<div class="dxy_list">
+<div class="dxy_menu">
+<SPAN><A href="http://www.jb51.net/list/index_96.htm" target="_blank">更多>> </A></SPAN>
+<div class="rongqi"><p><a href="http://www.jb51.net/list/index_96.htm" target="_blank">脚本专栏</a></p><DIV class=clear></DIV></div></div>
+<div class="list_body">
+<ul>
+<li><span>03-19</span><a href="/article/81193.htm" title="Python的Socket编程过程中实现UDP端口复用的实例分享" target="_blank">Python的Socket编程过程中实现UDP端口复用</a></li>
+<li><span>03-19</span><a href="/article/81188.htm" title="使用Python编写基于DHT协议的BT资源爬虫" target="_blank">使用Python编写基于DHT协议的BT资源爬虫</a></li>
+<li><span>03-18</span><a href="/article/81153.htm" title="浅析Python基础-流程控制" target="_blank">浅析Python基础-流程控制</a></li>
+<li><span>03-18</span><a href="/article/81151.htm" title="浅析Python编写函数装饰器" target="_blank">浅析Python编写函数装饰器</a></li>
+<li><span>03-18</span><a href="/article/81149.htm" title="python正则表达式之作业计算器" target="_blank">python正则表达式之作业计算器</a></li>
+<li><span>03-18</span><a href="/article/81148.htm" title="基于python yield机制的异步操作同步化编程模型" target="_blank">基于python yield机制的异步操作同步化编</a></li>
+<li><span>03-18</span><a href="/article/81145.htm" title="理解Python中的With语句" target="_blank">理解Python中的With语句</a></li>
+<li><span>03-18</span><a href="/article/81127.htm" title="简述Python中的进程、线程、协程" target="_blank">简述Python中的进程、线程、协程</a></li>
+<li><span>03-17</span><a href="/article/81075.htm" title="Python实现计算最小编辑距离" target="_blank">Python实现计算最小编辑距离</a></li>
+<li><span>03-17</span><a href="/article/81070.htm" title="Python引用模块和查找模块路径" target="_blank">Python引用模块和查找模块路径</a></li>
+</ul>
+</div></div></div>
+<div class="main_l_r">
+<div class="dxy_list">
+<div class="dxy_menu">
+<SPAN><A href="http://www.jb51.net/jiaoben/" target="_blank">更多>> </A></SPAN>
+<div class="rongqi"><p><a href="http://www.jb51.net/jiaoben/" target="_blank">脚本下载</a></p><DIV class=clear></DIV></div></div>
+<div class="list_body">
+<ul>
+<li><span>03-19</span><a href="/jiaoben/442105.html" title="html5+css3实现的黑色圆形时钟效果源码" target="_blank">html5+css3实现的黑色圆形时钟效果源码</a></li><li><span>03-18</span><a href="/jiaoben/441954.html" title="HTML5 canvas实现的全屏酷炫星空背景动画特" target="_blank">HTML5 canvas实现的全屏酷炫星空背景动画特</a></li><li><span>03-18</span><a href="/jiaoben/441817.html" title="CSS3实现固定网页底部半圆(弧形)展开导航特" target="_blank">CSS3实现固定网页底部半圆(弧形)展开导航特</a></li><li><span>03-18</span><a href="/jiaoben/441803.html" title="jQuery实现鼠标滑过图片出现遮罩层特效源码" target="_blank">jQuery实现鼠标滑过图片出现遮罩层特效源码</a></li><li><span>03-18</span><a href="/jiaoben/441799.html" title="jQuery同宽网格瀑布流插件特效源码" target="_blank">jQuery同宽网格瀑布流插件特效源码</a></li><li><span>03-17</span><a href="/jiaoben/441565.html" title="HTML5+CSS3实现的3D导航特效源码" target="_blank">HTML5+CSS3实现的3D导航特效源码</a></li><li><span>03-17</span><a href="/jiaoben/441516.html" title="纯CSS3简单实用的tooltips工具提示特效源码" target="_blank">纯CSS3简单实用的tooltips工具提示特效源码</a></li><li><span>03-17</span><a href="/jiaoben/441493.html" title="纯css3绘制的哆啦a梦机器猫头像效果源码" target="_blank">纯css3绘制的哆啦a梦机器猫头像效果源码</a></li><li><span>03-17</span><a href="/jiaoben/441407.html" title="jQuery+hover 3D插件实现鼠标滑过图片显示3" target="_blank">jQuery+hover 3D插件实现鼠标滑过图片显示3</a></li><li><span>03-17</span><a href="/jiaoben/441393.html" title="HTML5实现个性ppt文字幻灯片演示特效源码" target="_blank">HTML5实现个性ppt文字幻灯片演示特效源码</a></li>
+</ul></div></div></div>
+<div class="blank3"></div>
+<div class="main_l_l">
+<div class="dxy_list">
+<div class="dxy_menu">
+<SPAN><A href="http://www.jb51.net/softjc/" target="_blank">更多>> </A></SPAN>
+<div class="rongqi"><p><a href="http://www.jb51.net/softjc/" target="_blank">软件教程</a></p><DIV class=clear></DIV></div></div>
+<div class="list_body">
+<ul>
+<li><span>03-19</span><a href="/softjc/442072.html" title="美播app怎么私信好友?美播app私信好友方法" target="_blank">美播app怎么私信好友?美播app私信好友方法</a></li><li><span>03-19</span><a href="/softjc/442068.html" title="猫眼电影app怎么删除看过的电影?" target="_blank">猫眼电影app怎么删除看过的电影?</a></li><li><span>03-19</span><a href="/office/excel/442045.html" title="用excel怎么检查两个字符串是否相同?" target="_blank">用excel怎么检查两个字符串是否相同?</a></li><li><span>03-19</span><a href="/os/win10/442031.html" title="微软设计两款Win10操作中心通知动态展示效" target="_blank">微软设计两款Win10操作中心通知动态展示效</a></li><li><span>03-19</span><a href="/os/win10/442026.html" title="微软官方确认:Win10移动版正式版升级暂时仅" target="_blank">微软官方确认:Win10移动版正式版升级暂时仅</a></li><li><span>03-19</span><a href="/os/win10/441996.html" title="Win10系统安装Edge浏览器扩展图文教程及视" target="_blank">Win10系统安装Edge浏览器扩展图文教程及视</a></li><li><span>03-18</span><a href="/softjc/441981.html" title="全民K歌怎么自己发起合唱?" target="_blank">全民K歌怎么自己发起合唱?</a></li><li><span>03-18</span><a href="/os/Windows8/441973.html" title="win8.1系统连接手机热点后出现蓝屏重启的解" target="_blank">win8.1系统连接手机热点后出现蓝屏重启的解</a></li><li><span>03-18</span><a href="/os/Windows8/441963.html" title="Win8.1系统弹出Windows更新窗口提示“Windo" target="_blank">Win8.1系统弹出Windows更新窗口提示“Windo</a></li><li><span>03-18</span><a href="/os/win10/441961.html" title="Win10系统怎么校准显示器颜色？win10校准显" target="_blank">Win10系统怎么校准显示器颜色？win10校准显</a></li>
+</ul></div></div></div>
+<div class="main_l_r">
+<div class="dxy_list">
+<div class="dxy_menu">
+<SPAN><A href="http://www.jb51.net/gonglue/" target="_blank">更多>> </A></SPAN>
+<div class="rongqi"><p><a href="http://www.jb51.net/gonglue/" target="_blank">游戏攻略</a></p><DIV class=clear></DIV></div></div>
+<div class="list_body">
+<ul>
+<li><span>03-19</span><a href="/gonglue/442158.html" title="恐怖黎明3月最新固定炸箱子地点分享" target="_blank">恐怖黎明3月最新固定炸箱子地点分享</a></li><li><span>03-19</span><a href="/gonglue/442156.html" title="天天酷跑3.19圣斗狮加入黄金奖池拿好礼_强" target="_blank">天天酷跑3.19圣斗狮加入黄金奖池拿好礼_强</a></li><li><span>03-19</span><a href="/gonglue/442157.html" title="恐怖黎明召唤流开荒玩法详解" target="_blank">恐怖黎明召唤流开荒玩法详解</a></li><li><span>03-19</span><a href="/gonglue/442155.html" title="天天酷跑3月-4月召回小伙伴免费送吸血伯爵" target="_blank">天天酷跑3月-4月召回小伙伴免费送吸血伯爵</a></li><li><span>03-19</span><a href="/gonglue/442154.html" title="方舟生存进化空调作用介绍" target="_blank">方舟生存进化空调作用介绍</a></li><li><span>03-19</span><a href="/gonglue/442153.html" title="天天酷跑玫瑰兑换什么最好_天天酷跑召回好" target="_blank">天天酷跑玫瑰兑换什么最好_天天酷跑召回好</a></li><li><span>03-19</span><a href="/gonglue/442152.html" title="LOL 6.5索拉卡晋升为万能奶妈 可中可上可辅" target="_blank">LOL 6.5索拉卡晋升为万能奶妈 可中可上可辅</a></li><li><span>03-19</span><a href="/gonglue/442151.html" title="全境封锁被卡死在栅栏里怎么办_卡死在栅栏" target="_blank">全境封锁被卡死在栅栏里怎么办_卡死在栅栏</a></li><li><span>03-19</span><a href="/gonglue/442150.html" title="全境封锁登录uplay账号被封禁解决方案" target="_blank">全境封锁登录uplay账号被封禁解决方案</a></li><li><span>03-19</span><a href="/gonglue/442149.html" title="LOL 6.5上单男枪怎么玩 上单男枪新打法攻略" target="_blank">LOL 6.5上单男枪怎么玩 上单男枪新打法攻略</a></li>
+</ul></div></div></div>
+<div class="blank3"></div>
+<div class="main_l_l">
+<div class="dxy_list">
+<div class="dxy_menu">
+<SPAN><A href="http://www.jb51.net/yunying/">更多>> </A></SPAN>
+<div class="rongqi"><p><a href="http://www.jb51.net/yunying/" target="_blank">网站运营</a></p><DIV class=clear></DIV></div></div>
+<div class="list_body">
+<ul>
+<li><span>03-18</span><a href="/yunying/441980.html" title="2016年怎么做优化？百度对移动站点友好度评" target="_blank">2016年怎么做优化？百度对移动站点友好度评</a></li><li><span>03-18</span><a href="/yunying/441977.html" title="网站没排名还能日赚200吗?亲身经历讲述赚钱" target="_blank">网站没排名还能日赚200吗?亲身经历讲述赚钱</a></li><li><span>03-18</span><a href="/yunying/441974.html" title="优化企业网站需要留意哪些问题?网站建设10" target="_blank">优化企业网站需要留意哪些问题?网站建设10</a></li><li><span>03-18</span><a href="/yunying/441975.html" title="搜索引擎是如何判别垃圾内容？打造符合搜索" target="_blank">搜索引擎是如何判别垃圾内容？打造符合搜索</a></li><li><span>03-18</span><a href="/yunying/441967.html" title="seo干货分享 一个影响力大、实战且成功的电" target="_blank">seo干货分享 一个影响力大、实战且成功的电</a></li><li><span>03-18</span><a href="/yunying/441964.html" title="网站优化的时候怎么分析baidu热力点击图?" target="_blank">网站优化的时候怎么分析baidu热力点击图?</a></li><li><span>03-18</span><a href="/yunying/441730.html" title="详解BlueHost主机空间上绑定域名的方法" target="_blank">详解BlueHost主机空间上绑定域名的方法</a></li><li><span>03-18</span><a href="/yunying/441714.html" title="BlueHost服务器主机购买及安装WordPress的" target="_blank">BlueHost服务器主机购买及安装WordPress的</a></li><li><span>03-18</span><a href="/yunying/438511.html" title="DigitalOcean主机从购买到配置的一站式简明" target="_blank">DigitalOcean主机从购买到配置的一站式简明</a></li><li><span>03-17</span><a href="/yunying/441577.html" title="中小型旅游网站怎么做好用户口碑?" target="_blank">中小型旅游网站怎么做好用户口碑?</a></li><li><span>03-17</span><a href="/yunying/441571.html" title="企业SEO问答：电商网站内容和其他网站出现" target="_blank">企业SEO问答：电商网站内容和其他网站出现</a></li>
+</ul></div></div></div>
+<div class="main_l_r">
+<div class="dxy_list">
+<div class="dxy_menu">
+<SPAN><A href="http://www.jb51.net/web/" target="_blank">更多>> </A></SPAN>
+<div class="rongqi"><p><a href="http://www.jb51.net/web/" target="_blank">网页制作</a></p><DIV class=clear></DIV></div></div>
+<div class="list_body">
+<ul>
+<li><span>03-18</span><a href="/html5/441754.html" title="HTML5仿手机微信聊天界面" target="_blank">HTML5仿手机微信聊天界面</a></li><li><span>03-18</span><a href="/html5/441695.html" title="HTML5 画布canvas使用方法" target="_blank">HTML5 画布canvas使用方法</a></li><li><span>03-17</span><a href="/css/441563.html" title="html+css 清除浮动的相关技巧心得" target="_blank">html+css 清除浮动的相关技巧心得</a></li><li><span>03-17</span><a href="/html5/441354.html" title="HTML5使用Audio标签实现歌词同步的效果 " target="_blank">HTML5使用Audio标签实现歌词同步的效果 </a></li><li><span>03-17</span><a href="/html5/441330.html" title="HTML5 Canvas的常用线条属性值总结" target="_blank">HTML5 Canvas的常用线条属性值总结</a></li><li><span>03-17</span><a href="/html5/441310.html" title="HTML5 Canvas基本线条绘制的实例教程" target="_blank">HTML5 Canvas基本线条绘制的实例教程</a></li><li><span>03-17</span><a href="/html5/441280.html" title="HTML5 Canvas入门学习教程" target="_blank">HTML5 Canvas入门学习教程</a></li><li><span>03-17</span><a href="/css/441207.html" title="你应该知道的3个CSS技巧" target="_blank">你应该知道的3个CSS技巧</a></li><li><span>03-17</span><a href="/css/441185.html" title="css使用flexbox布局容器内多元素水平居中" target="_blank">css使用flexbox布局容器内多元素水平居中</a></li><li><span>03-17</span><a href="/html5/441114.html" title="HTML5 3D衣服摇摆动画特效" target="_blank">HTML5 3D衣服摇摆动画特效</a></li><li><span>03-16</span><a href="/css/440972.html" title="在网页标题栏上和收藏夹显示网站logo的实现" target="_blank">在网页标题栏上和收藏夹显示网站logo的实现</a></li>
+</ul></div></div></div>
+</div>
+<div class="dxy_main_r">
+<DIV class="r_title"><H6><a href="http://www.jb51.net/shouce/" target="_blank">在 线 手 册</a></H6></div>
+<div class="rightContent">
+<ul>
+<li><a href="http://shouce.jb51.net/perl5/" target="_blank">Perl 5 教程 by flamephoenix</a></li><li><a href="http://www.jb51.net/shouce/html/html.htm" target="_blank">HTML 30分钟入门教程</a></li><li><a href="http://www.jb51.net/tools/regexsc.htm" target="_blank">正则表达式速查表</a></li><li><a href="http://shouce.jb51.net/java/jdk1.7en" target="_blank">jdk 1.7 参考手册官方英文版</a></li><li><a href="http://shouce.jb51.net/java/jdk1.6/" target="_blank">JDK 1.6 API java 中文参考手册</a></li><li><a href="http://shouce.jb51.net/java/jdk1.5/" target="_blank">JDK 1.5 API java 中文参考手册</a></li><li><a href="http://shouce.jb51.net/actionscript3.0/" target="_blank">ActionScript 3.0 语言和组件参考 中文版</a></li><li><a href="http://shouce.jb51.net/hibernate/" target="_blank">HIBERNATE - 符合Java习惯的关系数据库持久</a></li><li><a href="http://shouce.jb51.net/spring/" target="_blank">Spring Framework 开发参考手册</a></li><li><a href="http://shouce.jb51.net/thinkinjava/" target="_blank">Thinking in Java 中文手册</a></li>
+</ul>
+</div>
+<div class="blank3"></div>
+<div class="box">
+<DIV class="r_title tab">
+<H3>常用工具</H3>
+<UL class="tabitem">
+  <LI><A class=current id=tool1 onmouseover=javascript:doClick_down(this) 
+  href="http://www.jb51.net/softs/bc.html" target=_blank>开发测试</A> </LI>
+  <LI><A id=tool2 onmouseover=javascript:doClick_down(this) 
+  href="http://www.jb51.net/shouce/" target=_blank>在线手册</A> </LI>
+  <LI><A id=tool3 onmouseover=javascript:doClick_down(this) 
+  href="http://tools.jb51.net" target=_blank>在线工具</A> </LI>
+  <LI><A id=tool4 onmouseover=javascript:doClick_down(this) 
+  href="http://s.jb51.net" target=_blank>其它</A> </LI>
+</UL></DIV>
+<div class="rightContent">
+<ul id="d_con1">
+<li><a href="http://www.jb51.net/softs/28133.html" target="_blank">asp服务器 简易测试asp的工具</a></li>
+<li><a href="http://www.jb51.net/softs/12868.html" target="_blank">PHP环境套件 PHPnow 简体中文免费版 V1.5.5.1</a></li>
+<li><a href="http://www.jb51.net/softs/17467.html" target="_blank">IIS6 php5 环境集成安装包</a></li>
+<li><a href="http://www.jb51.net/softs/2253.html" target="_blank">VisualVBS vbscript开发工具</a></li>
+<li><a href="http://www.jb51.net/softs/25914.html" target="_blank">BatProject 批处理编写软件中文绿色版</a></li>
+<li><a href="http://www.jb51.net/softs/20112.html" target="_blank">Aptana Javascript 编辑开发工具</a></li>
+<li><a href="http://www.jb51.net/softs/26128.html" target="_blank">TopStyle  CSS编写工具带预览功能</a></li>
+<li><a href="http://www.jb51.net/softs/10756.html" target="_blank"> PHP Expert Editor php编写工具</a></li>
+<li><a href="http://www.jb51.net/softs/bc.html" target="_blank"> 更多编程开发工具</a></li>
+</ul>
+<UL class="tool_box disable" id="d_con2">
+<li><a href="http://www.jb51.net/tools/zhengze.html" target="_blank" target="_blank">正则表达式30分钟入门教程</a></li>
+<li><a href="http://www.jb51.net/article/18526.htm" target="_blank" target="_blank">正则表达式 基础资料</a></li>
+<li><a href="http://www.jb51.net/w3school/js/index.asp.htm" target="_blank">javascript 在线参考手册</a></li>
+<li><a href="http://www.jb51.net/shouce/vbscript/" target="_blank">vbscript微软官方参考手册</a></li>
+<li><a href="http://www.jb51.net/shouce/jquery/jQuery_study.html" target="_blank">jQuery入门指南教程</a></li>
+<li><a href="http://www.jb51.net/w3school/asp/index.asp.htm" target="_blank">asp 学习在线手册</a></li>
+<li><a href="http://www.jb51.net/shouce/php5/index.htm" title="photoshop教程" target="_blank">php5最新中文参考手册</a></li>
+<li><a href="http://shouce.jb51.net/mysql/" title="mysql 5.1 参考手册" target="_blank">mysql</a></li>
+<li><a href="http://www.jb51.net/w3school/sql/index.asp.htm" title="sql数据库学习" target="_blank" class="noborder">sql数据库学习</a></li>
+</UL>
+<UL class="tool_box disable" id="d_con3">
+<li><a href="http://www.jb51.net/tools/zhuanhuan.htm" target="_blank">在线网页常用编码转换工具包</a></li>
+<li><a href="http://www.jb51.net/tools/cssyasuo.shtml" target="_blank">css 在线压缩工具</a></li>
+<li><a href="http://www.jb51.net/csstidy/css_optimiser.php?lang=zh" target="_blank">CSS整形与最佳化工具[压缩] </a></li>
+<li><a href="http://www.jb51.net/tools/jsmin/index.htm" target="_blank">JS Minifier js压缩</a></li>
+<li><a href="http://www.jb51.net/tools/packer.htm" target="_blank">packer_至强的javascript在线加密工具</a></li>
+<li><a href="http://www.jb51.net/tools/bihe/index.htm" target="_blank">XHTML 代码嵌套查看工具[标签闭合]</a></li>
+<li><a href="http://www.jb51.net/tools/jinzhi.htm" target="_blank">脚本之家 在线进制转换 可以实现各类进制间</a></li>
+<li><a href="http://www.jb51.net/tools/js_Debug.htm" target="_blank">在线JS脚本校验器检测js错误 </a></li>
+<li><a href="http://www.jb51.net/tools/htmlto.htm" target="_blank">将html转换为php,javascript和asp的在线工具</a></li>
+</UL>
+<UL class="tool_box disable" id="d_con4">
+<li><a href="http://www.jb51.net/adtest/index.htm" target="_blank">常用广告代码</a></li>
+<li><a href="http://www.jb51.net/tools/html-js.htm" target="_blank">HTML/JS互相转换工具-IE7兼容版</a></li>
+<li><a href="http://tools.jb51.net/Dreamweaver/" target="_blank">Dreamweaver在线编辑</a></li>
+<li><a href="http://www.jb51.net/codes/list37_1.html" target="_blank">网页编辑器</a></li>
+<li><a href="http://www.jb51.net/tools/qq.html" target="_blank">QQ在线强制聊天工具 加强修正版</a></li>
+<li><a href="http://www.jb51.net/tools/xunleijm.htm" target="_blank">迅雷 快车专用链接加密解密js代码</a></li>
+<li><a href="http://www.jb51.net/tools/fanjianzhi.htm" target="_blank">在线繁简体字转换</a></li> 
+<li><a href="/shouce/html/" target="_blank">html中文完全手册</a></li>
+<li><a href="http://www.jb51.net/softs/911.html" target="_blank">asp encode加解密</a></li>
+</UL>
+</div></div>
+<div class="blank3"></div>
+<DIV class="r_title"><H6>常用软件</H6></div>
+<div class="cy_box">
+<ul>
+               <li>
+		<h4>脚本相关</h4>
+		<a target="_blank" href="http://www.jb51.net/jiaoben/58.html">jquery</a> | 
+		<a target="_blank" href="http://www.jb51.net/jiaoben/291.html">prototype</a> | 
+		<a target="_blank" href="http://www.jb51.net/jiaoben/298.html">MooTools</a> | 
+		<a target="_blank" href="http://www.jb51.net/jiaoben/9948.html">EXTJS</a> | 
+		<a target="_blank" href="http://www.jb51.net/jiaoben/20108.html">dojo</a> | 
+		<a target="_blank" href="http://www.jb51.net/jiaoben/19615.html">swfobject</a> | 
+		<a target="_blank" href="http://www.jb51.net/jiaoben/294.html">Yui</a> | 
+		<a target="_blank" href="http://www.jb51.net/softs/20112.html" title="推荐的一款javascript开发工具">Aptana</a> | 
+		<a target="_blank" href="http://www.jb51.net/softs/2253.html" title="非常不错的vbscript开发学习软件">vbscript</a>
+               </li>
+               <li>
+		<h4>参考手册：</h4>
+        <a target="_blank" href="http://www.jb51.net/shouce/css20/">CSS</a> | 
+        <a target="_blank" href="http://www.jb51.net/shouce/css2/">CSS2.0</a> |
+		<a target="_blank" href="http://www.jb51.net/shouce/asp/">asp</a> | 
+		<a target="_blank" href="http://www.jb51.net/shouce/php5/index.htm">php</a> | 
+		<a target="_blank" href="http://www.jb51.net/shouce/vbscript/">vbscript</a> | 
+		<a target="_blank" href="http://www.jb51.net/shouce/jquery/">jquery</a> | 
+  		<a target="_blank" href="http://www.jb51.net/shouce/jquery/">vbscript</a> | 
+		<a target="_blank" href="http://www.jb51.net/shouce/cssfilter/">样式表滤镜</a> | 
+  <a target="_blank" href="http://www.jb51.net/shouce/script56/">脚本学习手册</a> | 
+		<a target="_blank" href="http://www.jb51.net/shouce/dos/">dos</a> | 
+		<a target="_blank" href="http://www.jb51.net/shouce/behavior/">dhtml</a> | 
+		<a target="_blank" href="http://www.jb51.net/shouce/xmlhttp/">xmlhttp</a>               </li>
+               <li>
+		<h4>常用源码： </h4>
+  <a target="_blank" href="http://www.jb51.net/codes/9736.html">DEDECMS</a> | 
+  <a target="_blank" href="http://www.jb51.net/codes/9741.html">帝国</a> | 
+		<a target="_blank" href="http://www.jb51.net/codes/1991.html">PJBLOG</a> | 
+		<a target="_blank" href="http://www.jb51.net/codes/9523.html">Z-BLOG</a> | 
+		<a target="_blank" href="http://www.jb51.net/codes/9735.html">OBLOG</a> | 
+		<a target="_blank" href="http://www.jb51.net/codes/8892.html">WP</a> | 
+		<a target="_blank" href="http://www.jb51.net/codes/9741.html">帝国</a> | 
+		<a target="_blank" href="http://www.jb51.net/codes/8895.html">phpwind</a> | 
+<a target="_blank" href="http://www.jb51.net/codes/15565.html">discuz(php论坛)</a>
+               </li>
+               <li>
+		<h4>工具下载：</h4>
+		<a target="_blank" href="http://www.jb51.net/softs/9733.html">LeapFTP</a> | 
+		<a target="_blank" href="http://www.jb51.net/softs/9543.html">FlashFXP</a> | 
+		<a target="_blank" href="http://www.jb51.net/softs/8611.html">迅雷去广告</a> | 
+		<a target="_blank" href="http://www.jb51.net/softs/2195.html">Serv-U</a> | 
+		<a target="_blank" href="http://www.jb51.net/softs/915.html">3389远程桌面</a> | 
+		<a target="_blank" href="http://www.jb51.net/softs/8530.html">Dreamweaver</a>| 
+		<a target="_blank" href="http://www.jb51.net/softs/2276.html">editplus</a>| 
+		<a target="_blank" href="http://www.jb51.net/softs/8690.html">pdf阅读</a>
+               </li>
+            </ul>
+</div>
+</DIV>
+</div><!--end main-->
+<!--main2 end-->
+<!--main3-->
+<!--end main-->
+<!--main3 end-->
+<div class="blank3"></div>
+<div class="sc">
+<div class="sc_t"><span><a href="http://sc.jb51.net" target="_blank">更多素材</a>&nbsp;&nbsp;</span><h2>素材中国</h2></div>
+<div class="sc_img">
+<ul>
+<li>
+  <a href="http://sc.jb51.net/Web/" title="网页设计素材" target="_blank"><img src="http://img.jb51.net/images/wysc.jpg" width="143" height="166" alt="网页设计素材" /></a>
+  <h4><a href="http://sc.jb51.net/Web/gif/index.html" target="_blank">PNG图标</a> <a href="http://sc.jb51.net/Web/PNG/index.html" target="_blank">png小图标</a></h4></li>
+<li><a href="http://sc.jb51.net/Design/" title="设计元素" target="_blank"><img src="http://img.jb51.net/images/sjsc.jpg" width="143" height="166" alt="设计元素" /></a>
+  <h4><a href="http://sc.jb51.net/Design/Ad/index.html" title="广告设计" target="_blank">广告设计</a> <a href="http://sc.jb51.net/Design/chezhanguanggaotupian/index.html" title="车展广告" target="_blank">车展广告</a></h4></li>
+<li>
+  <a href="http://sc.jb51.net/Design/hcsj/index.html" title="画册模板素材" target="_blank"><img src="http://img.jb51.net/images/huace.jpg" width="143" height="166" alt="画册模板" /></a>
+  <h4><a href="http://sc.jb51.net/Design/hcsj/index.html" title="画册设计" target="_blank">画册设计</a> <a href="http://sc.jb51.net/Design/hcsj/index.html" title="画册模板" target="_blank">画册模板</a></h4></li>
+<li><a href="http://sc.jb51.net/Design/mpmb/index.html" title="名片模板" target="_blank"><img src="http://img.jb51.net/images/mingpian.jpg" width="143" height="166" alt="名片模板" /></a>
+  <h4><a href="http://sc.jb51.net/Design/mpmb/index.html" title="名片模板" target="_blank">名片模板</a> <a href="http://sc.jb51.net/Design/heka/index.html" title="名片模板" target="_blank">贺卡图片</a></h4></li>
+<li><a href="http://sc.jb51.net/Design/Poster/index.html" title="海报展板" target="_blank"><img src="http://img.jb51.net/images/haibao.jpg" width="143" height="166" alt="海报展板" /></a>
+  <h4><a href="http://sc.jb51.net/Design/zbsj/index.html" title="展板模板" target="_blank">展板模板</a> <a href="http://sc.jb51.net/Design/Poster/index.html" title="展板模板" target="_blank">海报素材</a></h4></li>
+<li><a href="http://sc.jb51.net/Web/Template/index.html" title="网页模板" target="_blank"><img src="http://img.jb51.net/images/moban.jpg" width="143" height="166" alt="网页模板" /></a>
+  <h4><a href="http://sc.jb51.net/Web/Template/index.html" title="网页模板" target="_blank">网页模板</a> <a href="http://sc.jb51.net/Web/code/index.html" title="商业源码" target="_blank">商业源码</a></h4></li>
+</ul>
+<div class="clear"></div>
+ </div>
+    </div> 
+<div class="blank20"></div>
+<DIV class="dxy_main">
+<script type="text/javascript">var cpro_id = 'u1919103';</script><script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script>
+</div>
+<div class="blank3"></div>
+<div id="ontools">
+  <div>
+    <h2><span>网站地图导航</span></h2>
+<p><a href="http://www.jb51.net/list/index_96.htm" target="_blank"><strong>脚本专栏</strong></a><a href="/list/list_114_1.htm" title="vbs" target="_blank">vbscript</a><a href="/list/list_106_1.htm" target="_blank">批处理</a><a href="/list/list_97_1.htm" target="_blank">python</a><a href="/list/list_125_1.htm" target="_blank">perl</a><A href="http://www.jb51.net/shouce/" target="_blank">在线手册</A><a href="http://www.jb51.net/list/index_1.htm" target="_blank"><strong>网络编程</strong></a><a href="/list/list_2_1.htm"  target="_blank">ASP编程</a><a href="/list/list_15_1.htm"  target="_blank">PHP编程</a><a href="/list/list_21_1.htm"  target="_blank">ASP.NET</a><a href="/list/list_83_1.htm"  target="_blank">JSP编程</a><a href="http://www.jb51.net/list/list_6_1.htm" target="_blank">正则表达式</a><a href="http://www.jb51.net/list/index_84.htm"  target="_blank"><strong>软件编程</strong></a><a href="/list/list_93_1.htm" target="_blank">vb</a><a href="http://www.jb51.net/list/list_85_1.htm" target="_blank">C#</a><a href="/list/list_159_1.htm" target="_blank">C 语言</a><a href="/list/list_134_1.htm" target="_blank">Java编程</a><a href="/list/list_206_1.htm" target="_blank">Delphi</a><a href="/list/list_207_1.htm" target="_blank">java</a><a href="/list/list_233_1.htm" target="_blank">Android</a><a href="http://www.jb51.net/codes/"  target="_blank"><strong>源码下载</strong></a><A href="http://www.jb51.net/codes/asp.html" target="_blank">Asp源码</A> <A href="http://www.jb51.net/codes/aspnet.html" target="_blank">.net源码</A> <A href="http://www.jb51.net/codes/php.html" target="_blank">PHP源码</A>  <A href="http://www.jb51.net/codes/jsp.html" target="_blank">jsp源码</A> <A href="http://www.jb51.net/codes/editor.html" target="_blank">网页编辑器</A><A href="http://www.jb51.net/softs/" target="_blank"><strong>软件下载</strong></A><a href="http://www.jb51.net/tools.htm" target="_blank">网站开发常用软件</a><a href="http://s.jb51.net" target="_blank">服务器常用软件</a><a href="http://www.jb51.net/softs/list24_1.html" target="_blank">编程开发</a><a href="http://www.jb51.net/softs/list64_1.html" target="_blank">网页设计</a><a href="http://sc.jb51.net" target="_blank"><strong>素材中国</strong></a><A href="http://www.jb51.net/photoshop/" target="_blank">photoshop教程</A><A href="http://www.jb51.net/Fireworks/" target="_blank">Fireworks教程</A><A href="http://www.jb51.net/CorelDraw/" target="_blank">CorelDraw教程</A><a href="http://www.jb51.net/media/" title="媒体动画" target="_blank">媒体动画</a><a href="http://www.jb51.net/os/" target="_blank"><strong>操作系统</strong></a><a href="http://www.jb51.net/os/windows/" target="_blank">Windows系列</a><a href="http://www.jb51.net/os/Solaris/" target="_blank">Solaris</a><a href="http://www.jb51.net/os/qilin/" target="_blank">麒麟系统</a><a href="http://www.jb51.net/os/Unix/" target="_blank">Unix/BSD</a><a href="http://www.jb51.net/os/Fedora/" target="_blank">Fedora</a><a href="http://www.jb51.net/os/RedHat/" target="_blank">RedHat</a><a href="http://www.jb51.net/os/hongqi/" target="_blank">红旗Linux</a><a href="http://www.jb51.net/hardware/" target="_blank">硬件教程</a><a href="http://www.jb51.net/softs/list52_1.html" target="_blank">图形图像</a><a href="http://www.jb51.net/softs/list51_1.html" target="_blank">媒体工具</a><a href="http://www.jb51.net/softjc/" title="软件教学" target="_blank">软件教学</a><a href="http://www.jb51.net/softs/list24_1.html" target="_blank">编程工具</a><a href="http://www.jb51.net/softs/list56_1.html" target="_blank">黑客相关</a><a href="http://www.jb51.net/tools.htm" target="_blank">网站开发常用软件</a><a href="http://play.jb51.net" target="_blank">播放器之家</a><a href="http://www.jb51.net/qudong/" target="_blank">驱动下载</a><a href="http://sc.jb51.net" target="_blank">素材之家</a><a href="http://www.jb51.net/fonts/" target="_blank">字体下载</a><a href="http://www.jb51.net/linux/" target="_blank">Linux常用命令全集</a><a href="http://office.jb51.net" target="_blank">office教程</a><a href="http://yueduqi.jb51.net" target="_blank">阅读器之家</a><a href="http://www.jb51.net/dazi/" title="打字学习" target="_blank">打字练习</a><a href="http://yulu.jb51.net/" target="_blank">语录大全网</a><a href="http://www.jb51.net/gonglue/" title="游戏攻略" target="_blank" class="noborder">游戏攻略</a></p>
+</div>
+</div>
+<div class="blank3"></div>
+<div id="friendlinks">
+<div class="hd"><FONT>欢迎交换友情链接 联系QQ： 461478385</FONT><SPAN></SPAN><h2>友情链接</h2></div>
+<p><a href="http://www.blueidea.com" alt="蓝色理想 - 网站设计与开发人员之家" target="_blank">蓝色理想</a><a href="http://www.knowsky.com" target="_blank">动态网站制作</a><a href="http://www.ithome.com/" target="_blank">IT之家</a><a href="http://www.diyifanwen.com" target="_blank">第一范文网</a><a href="http://www.chinaz.com/web/" target="_blank">建站资讯</a><a href="http://developer.51cto.com/" target="_blank">51CTO开发</a><a href="http://www.52pojie.cn" target="_blank">吾爱破解论坛</a><a href="http://www.baidu.com" target="_blank">百度</a><a href="http://www.xiazaiba.com" target="_blank">下载吧</a><a href="http://www.downcc.com" target="_blank">绿色资源网</a><a href="http://www.missyuan.com" target="_blank">思缘设计</a><a href="http://www.jz5u.com" target="_blank">JZ5U绿色下载站</a><a href="http://www.greenxf.com" target="_blank">绿色先锋下载</a><a href="http://www.wzsky.net/" target="_blank">设计前沿</a><a href="http://www.orsoon.com" target="_blank">未来软件园</a><a href="http://www.51aspx.com" target="_blank">.Net源码专业站</a><a href="http://down.admin5.com/" target="_blank">A5源码下载</a><a href="http://www.ddooo.com/" target="_blank">多多软件站</a><a href="http://www.piaodown.com" target="_blank">飘荡软件</a><a href="http://www.2cto.com/" target="_blank">红黑联盟</a><a href="http://www.downxia.com" target="_blank">当下软件园</a><a href="http://www.gezila.com" target="_blank">格子啦下载</a><a href="http://www.9553.com/" target="_blank">9553下载</a><a href="http://www.3d66.com/" target="_blank">3D溜溜网</a><a href="http://soft.hao123.com" target="_blank">hao123下载</a><a href="http://www.jb51.net/link.htm" target="_blank" class="noborder">更多</a></p>
+</div>
+</div>
+<div class="blank3"></div>
+<div id="footer">
+  <div id="footerinfo">
+    <div id="footercontent"><a rel="nofollow" href="http://www.jb51.net/about.htm" target="_blank">关于我们</a> - <a rel="nofollow" href="http://www.jb51.net/support.htm" target="_blank">广告合作</a> - <a rel="nofollow" href="http://www.jb51.net/linkus.htm" target="_blank">联系我们</a> - <a rel="nofollow" href="http://www.jb51.net/sm.htm" target="_blank">免责声明</a> - <a rel="nofollow" href="http://www.jb51.net/sitemap.htm" target="_blank">网站地图</a> - <a rel="nofollow" href="tencent://message/?uin=461478385&Site=http://www.jb51.net" target="_blank">投诉建议</a> - <a rel="nofollow" href="http://www.jb51.net/up.htm" target="_blank">在线投稿</a></div>
+    <div id="footercopyrights">严禁网站镜像，否则追究法律责任 CopyRight &copy; 2006-2015 <a href="http://www.jb51.net">脚本之家</a> JB51.Net , All Rights Reserved. </div>
+    <div class="qinfo">QQ交流群：①群 14624678 ②群 36345889 ③群 232608061 ④群 255725565<br /><a rel="nofollow" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32031102000137" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="http://www.beian.gov.cn/file/ghs.png"/>苏公网安备 32031102000137号</a>&nbsp;&nbsp;<a href="http://www.miibeian.gov.cn" rel="nofollow" target="_blank">苏ICP备14036222号</a> </div>
+    <DIV class=ewm><IMG alt="脚本之家官方微信" src="http://img.jb51.net/images/weixin_jb51.gif"></DIV>
+    <div class="zz"><script language="javascript" src="http://img.jb51.net/imgby/zanzhu.js"></script></div>
+    <div class="rz"><a rel="nofollow" id="_pingansec_bottomimagesmall_shiming" href="http://si.trustutn.org/info?sn=648151026018110372184&certType=1"><img src="http://v.trustutn.org/images/cert/bottom_small_img.png"/></a></div>
+  </div>
+</div>
+<div id="logo_m_tp"><script type="text/javascript">dy("logo_m");</script></div>
+<div id="logo_r_tp"><script type="text/javascript">dy("logo_r");</script></div>
+<div id="tonglan1_tp"><script type="text/javascript">dy("tonglan1_2");</script></div>
+<div id="tonglan3_tp"><script type="text/javascript">dy("tonglan3_2");</script></div>
+<div id="tonglan6_tp"><script type="text/javascript">dy("tonglan6");</script></div>
+<div class="tongji">
+<script type="text/javascript">
+function switchad(adname,adtpname){
+ if (getid(adname) && getid(adtpname)){
+getid(adname).innerHTML=getid(adtpname).innerHTML;
+getid(adtpname).innerHTML='';
+}
+} 
+try{
+switchad("logo_m","logo_m_tp");
+switchad("logo_r","logo_r_tp");
+switchad("tonglan1","tonglan1_tp");
+switchad("tonglan3","tonglan3_tp");
+switchad("tonglan6","tonglan6_tp");
+}catch(e){}
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fb88cfc1ccab788f0903cac38c894caa3' type='text/javascript'%3E%3C/script%3E"));
+document.write('<scr'+'ipt src="http://s73.cnzz.com/stat.php?id=1585378&web_id=1585378" language="JavaScript"></sc'+'ript>');
+document.write('<sc'+'ript src="http://s96.cnzz.com/stat.php?id=4180674&web_id=4180674" language="JavaScript"></scr'+'ipt>');
+</script>
+</div>
+</body>
+
+</html>

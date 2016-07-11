@@ -1,0 +1,35 @@
+*{
+  padding:0px;
+  margin:0px;
+  }
+  div{
+  margin:0 auto;
+  }
+  body{
+  font-size:12px;
+  background:#ccc;
+  }
+  #header{
+  width:400px;
+  height:50px;
+  background:#eee;
+  font-size:23px;
+  color:red;
+  }
+  #content{
+  width:400px;
+  height:300px;
+  background:white;
+  }
+  #footer{
+  width:400px;
+  height:30px;
+  background:#ee9;
+  text-align:center;
+  }
+  #show{
+  width:360px;
+  height:270px;
+  background:#ddd;
+  margin-top:10px;
+  }

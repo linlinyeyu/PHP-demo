@@ -1,0 +1,87 @@
+﻿Linux下用PHP4连接ORACLE8I的方法
+
+关键词：PHP
+
+1. 下载并安装 Oracle 8i for linux. 
+完全安装，不要只安装客户端 
+下载地点：chat.hn.cninfo.net/soft的hot下载
+
+2. 下载PHP3或PHP4源码
+下载地点：www.php.net www.phpuser.com chat.hn.cninfo.net/soft
+
+3. 配置PHP的安装参数
+for php 4: 
+./configure --with-apxs=/usr/sbin/apxs \ 
+--prefix=/usr \ 
+--with-gd \ 
+--enable-versioning \ 
+--with-mysql=/usr \ 
+--with-oracle=/usr/local/oracle/8i/u01/app/oracle/product/8.1.5 \ 
+--with-oci8=/usr/local/oracle/8i/u01/app/oracle/product/8.1.5 \ 
+--with-zlib \ 
+--with-dbase \ 
+--with-filepro \ 
+--with-config-file-path=/etc/httpd/conf \ 
+--with-fdftk=no \ 
+--enable-debug=no \ 
+--enable-magic-quotes \ 
+--enable-debugger \ 
+--enable-bcmath \ 
+--enable-track-vars \ 
+--enable-safe-mode \ 
+--with-exec-dir=/usr/bin \ 
+--with-system-regex \ 
+--no-create \ 
+--no-recursion 
+
+--with-oracle 选项让php可以通过ORA＿函数访问 Oracle 7.x 或8.x 
+--with-oci8 选项让php可以使用更多更好的 oci8函数
+
+4. make 
+
+5. make install 
+
+6. cp ./php.ini-dist /wherever/your/conf/files/are/php.ini 
+将php.ini拷贝到适当的位置
+
+7. 修改httpd.conf 
+修改如下这一行
+LoadModule php4_module lib/apache/libphp4.so 
+改为：
+LoadModule php4_module /usr/lib/apache/libphp4.so 
+
+8. 重新启动APACHE
+
+9. 测试PHP4的安装是否成功
+创建一个test.php3内容为：
+
+在浏览器中访问它，看是否有ORACLE和ORACLE8的信息。
+如果有的话，那么就恭喜你了！
+
+10. 现在开始使用ORACLE的函数吧
+// 设置ORACLE环境变量
+putenv("ORACLE_SID=PROD"); 
+putenv("ORACLE_HOME=/usr/local/oracle/8i/u01/app/oracle/product/8.1.5"); 
+
+// 建立连接
+// 修改现在的user_id,password,db以适应你的配置
+if($conn = OCILogon("user_id","password","db")) 
+{ 
+// 取得数据库的信息
+printf("%s
+
+", OCIServerVersion($conn)); 
+} 
+else 
+{ 
+printf("Conncetion Failed"); 
+} 
+?> 
+这段程序会显示出你所连接到的ORACLE的一些信息
+
+12. 其它
+如果你需要连接到远程的ORACLE服务器，你就还需要设置你的sqlnet.ora 和 tnsnames.ora 来指定远程数据库的位置。
+向数据库管理员要求，拷贝一些文件放到$ORACLE_HOME/network/admin/ 目录下 
+
+
+--------------------------------------------------------------------------------
